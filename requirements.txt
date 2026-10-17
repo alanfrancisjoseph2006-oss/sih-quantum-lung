@@ -1,0 +1,45 @@
+# Hybrid Quantum-Classical Lung Cancer Analysis Platform
+# SIH 2026 - PS 26139 - Team CodeNova
+# Verified working set on Python 3.11 / Windows 11 / RTX 4050 (CUDA 12.4).
+#
+# GPU users: install torch FIRST from the CUDA index, then the rest:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#   pip install -r requirements.txt
+# CPU-only users: plain `pip install -r requirements.txt` works; training is slower
+# but the pipeline and web app run unchanged.
+
+torch==2.6.0
+torchvision==0.21.0
+timm==1.0.29
+
+# Quantum
+pennylane==0.45.1
+pennylane-lightning==0.45.0
+
+# Classical ML
+scikit-learn==1.9.0
+xgboost==3.2.0
+shap==0.51.0
+
+# Imaging
+opencv-python==5.0.0.93
+pillow==12.3.0
+pydicom==3.0.2
+scikit-image==0.26.0
+ImageHash==4.3.2
+
+# Numerics / reporting
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.5
+matplotlib==3.11.1
+seaborn==0.13.2
+tqdm==4.70.0
+
+# Web
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+python-multipart==0.0.32
+
+# Optional - only needed to run tests/test_visual.py
+# playwright==1.49.0

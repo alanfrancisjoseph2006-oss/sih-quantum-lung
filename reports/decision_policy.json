@@ -1,0 +1,21 @@
+{
+  "policy": "class_prior_reweighting",
+  "applied_to": "final routed prediction only",
+  "weights": {"benign": 1.0, "malignant": 1.0, "normal": 0.20},
+  "rationale": "The deployed model under-called benign lesions as 'normal' (test benign recall 0.733; 4 of 4 errors were lesion-called-normal, the clinically dangerous direction). A normal-class penalty was tuned by StratifiedGroupKFold cross-validation over train+val (85 benign examples) rather than on the 157-image validation split alone, which contains only 15 benign images and could not resolve the threshold. Selection required malignant recall to not regress and normal recall to stay >= 0.90.",
+  "measured_effect_on_test": {
+    "benign_recall": {"before": 0.733, "after": 0.933},
+    "malignant_recall": {"before": 0.988, "after": 0.988},
+    "normal_recall": {"before": 0.967, "after": 0.917},
+    "macro_f1": {"before": 0.9011, "after": 0.9140},
+    "missed_findings_lesion_called_normal": {"before": 4, "after": 1}
+  },
+  "tradeoff": "Normal recall falls ~5 points: more healthy scans are flagged for review. For a screening-support tool this is the correct direction - a false alarm costs a follow-up read, a missed lesion costs far more.",
+  "caveats": [
+    "The cross-validation objective curve was nearly flat (0.985 vs 0.984 across the sweep), so the exact weight is weakly determined; the validation constraint check is what confirmed it.",
+    "Based on 15 benign validation and 15 benign test images. Confidence intervals are wide.",
+    "This is a decision-threshold change, not a better-trained model. The real fix is more benign training data."
+  ],
+  "tuned_by": "scripts/08_improve_benign.py",
+  "seed": 42
+}

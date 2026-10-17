@@ -1,0 +1,717 @@
+{
+ "models": {
+  "CNN": {
+   "baseline": {
+    "name": "CNN base",
+    "f1_macro": 0.9166666666666666,
+    "accuracy": 0.9615384615384616,
+    "benign_recall": 0.8,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "benign_precision": 0.8,
+    "roc_auc": 0.9786963159968479,
+    "missed_findings": 3,
+    "confusion": [
+     [
+      12,
+      0,
+      3
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      3,
+      0,
+      57
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "CNN +LIDC",
+    "f1_macro": 0.8278776479294502,
+    "accuracy": 0.9038461538461539,
+    "benign_recall": 0.7333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8166666666666667,
+    "benign_precision": 0.55,
+    "roc_auc": 0.9139028024034673,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      11,
+      0,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      9,
+      2,
+      49
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.09,
+    "ci95_lo": -0.1645,
+    "ci95_hi": -0.0205,
+    "p_value": 0.013,
+    "significant_at_0.05": true
+   }
+  },
+  "Quantum_4q": {
+   "baseline": {
+    "name": "Quantum_4q base",
+    "f1_macro": 0.9010763938873655,
+    "accuracy": 0.9551282051282052,
+    "benign_recall": 0.7333333333333333,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.9666666666666667,
+    "benign_precision": 0.7857142857142857,
+    "roc_auc": 0.9799571513002364,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      11,
+      0,
+      4
+     ],
+     [
+      1,
+      80,
+      0
+     ],
+     [
+      2,
+      0,
+      58
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "Quantum_4q +LIDC",
+    "f1_macro": 0.8712030558090795,
+    "accuracy": 0.9038461538461539,
+    "benign_recall": 0.6666666666666666,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8333333333333334,
+    "benign_precision": 1.0,
+    "roc_auc": 0.9842284771473602,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      10,
+      1,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      0,
+      10,
+      50
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0307,
+    "ci95_lo": -0.0962,
+    "ci95_hi": 0.0359,
+    "p_value": 0.349,
+    "significant_at_0.05": false
+   }
+  },
+  "RandomForest": {
+   "baseline": {
+    "name": "RandomForest base",
+    "f1_macro": 0.8881987577639752,
+    "accuracy": 0.9423076923076923,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8833333333333333,
+    "benign_precision": 0.65,
+    "roc_auc": 0.9783232368006304,
+    "missed_findings": 2,
+    "confusion": [
+     [
+      13,
+      0,
+      2
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      7,
+      0,
+      53
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "RandomForest +LIDC",
+    "f1_macro": 0.8267498267498268,
+    "accuracy": 0.9038461538461539,
+    "benign_recall": 0.8,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8,
+    "benign_precision": 0.5,
+    "roc_auc": 0.9517927501970056,
+    "missed_findings": 3,
+    "confusion": [
+     [
+      12,
+      0,
+      3
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      12,
+      0,
+      48
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0637,
+    "ci95_lo": -0.1574,
+    "ci95_hi": 0.0305,
+    "p_value": 0.17,
+    "significant_at_0.05": false
+   }
+  },
+  "SVM_RBF": {
+   "baseline": {
+    "name": "SVM_RBF base",
+    "f1_macro": 0.8781676413255362,
+    "accuracy": 0.9358974358974359,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8666666666666667,
+    "benign_precision": 0.6190476190476191,
+    "roc_auc": 0.9756858254531128,
+    "missed_findings": 2,
+    "confusion": [
+     [
+      13,
+      0,
+      2
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      8,
+      0,
+      52
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "SVM_RBF +LIDC",
+    "f1_macro": 0.81203007518797,
+    "accuracy": 0.8974358974358975,
+    "benign_recall": 0.7333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8,
+    "benign_precision": 0.4782608695652174,
+    "roc_auc": 0.9856887805358551,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      11,
+      0,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      12,
+      0,
+      48
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0684,
+    "ci95_lo": -0.161,
+    "ci95_hi": 0.0223,
+    "p_value": 0.168,
+    "significant_at_0.05": false
+   }
+  },
+  "Hybrid_meta": {
+   "baseline": {
+    "name": "Hybrid_meta base",
+    "f1_macro": 0.9247214694369167,
+    "accuracy": 0.967948717948718,
+    "benign_recall": 0.7333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9833333333333333,
+    "benign_precision": 0.9166666666666666,
+    "roc_auc": 0.9786963159968479,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      11,
+      0,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      1,
+      0,
+      59
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "Hybrid_meta +LIDC",
+    "f1_macro": 0.8712030558090795,
+    "accuracy": 0.9038461538461539,
+    "benign_recall": 0.6666666666666666,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8333333333333334,
+    "benign_precision": 1.0,
+    "roc_auc": 0.985263987391647,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      10,
+      1,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      0,
+      10,
+      50
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0546,
+    "ci95_lo": -0.1131,
+    "ci95_hi": 0.0005,
+    "p_value": 0.052,
+    "significant_at_0.05": false
+   }
+  }
+ },
+ "note": "Both arms evaluated on the identical, unchanged IQ-OTH test split (n=156). LIDC data entered TRAIN only; val and test remained 100% IQ-OTH, so a dataset shortcut cannot inflate these numbers.",
+ "with_policy": {
+  "CNN": {
+   "baseline": {
+    "name": "CNN base",
+    "f1_macro": 0.7897591906429907,
+    "accuracy": 0.8653846153846154,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.6666666666666666,
+    "benign_precision": 0.42424242424242425,
+    "roc_auc": 0.9809027777777778,
+    "missed_findings": 1,
+    "confusion": [
+     [
+      14,
+      0,
+      1
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      19,
+      1,
+      40
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "CNN +LIDC",
+    "f1_macro": 0.8093591758337698,
+    "accuracy": 0.8717948717948718,
+    "benign_recall": 1.0,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.6666666666666666,
+    "benign_precision": 0.4838709677419355,
+    "roc_auc": 0.912957175925926,
+    "missed_findings": 0,
+    "confusion": [
+     [
+      15,
+      0,
+      0
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      16,
+      4,
+      40
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": 0.0195,
+    "ci95_lo": -0.0403,
+    "ci95_hi": 0.079,
+    "p_value": 0.524,
+    "significant_at_0.05": false
+   }
+  },
+  "Quantum_4q": {
+   "baseline": {
+    "name": "Quantum_4q base",
+    "f1_macro": 0.9140215606482472,
+    "accuracy": 0.9551282051282052,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.9166666666666666,
+    "benign_precision": 0.7,
+    "roc_auc": 0.9813755910165485,
+    "missed_findings": 1,
+    "confusion": [
+     [
+      14,
+      0,
+      1
+     ],
+     [
+      1,
+      80,
+      0
+     ],
+     [
+      5,
+      0,
+      55
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "Quantum_4q +LIDC",
+    "f1_macro": 0.8447665942848986,
+    "accuracy": 0.8910256410256411,
+    "benign_recall": 0.6666666666666666,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8,
+    "benign_precision": 0.8333333333333334,
+    "roc_auc": 0.9883261918833727,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      10,
+      1,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      2,
+      10,
+      48
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0709,
+    "ci95_lo": -0.1651,
+    "ci95_hi": 0.019,
+    "p_value": 0.122,
+    "significant_at_0.05": false
+   }
+  },
+  "RandomForest": {
+   "baseline": {
+    "name": "RandomForest base",
+    "f1_macro": 0.7159730193662329,
+    "accuracy": 0.8012820512820513,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.5,
+    "benign_precision": 0.358974358974359,
+    "roc_auc": 0.9819481382978723,
+    "missed_findings": 1,
+    "confusion": [
+     [
+      14,
+      0,
+      1
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      25,
+      5,
+      30
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "RandomForest +LIDC",
+    "f1_macro": 0.7948664222105816,
+    "accuracy": 0.8653846153846154,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.6666666666666666,
+    "benign_precision": 0.45161290322580644,
+    "roc_auc": 0.9526386426319937,
+    "missed_findings": 0,
+    "confusion": [
+     [
+      14,
+      1,
+      0
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      17,
+      3,
+      40
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": 0.0793,
+    "ci95_lo": 0.0012,
+    "ci95_hi": 0.1659,
+    "p_value": 0.046,
+    "significant_at_0.05": true
+   }
+  },
+  "SVM_RBF": {
+   "baseline": {
+    "name": "SVM_RBF base",
+    "f1_macro": 0.8825187969924811,
+    "accuracy": 0.9358974358974359,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.85,
+    "benign_precision": 0.6086956521739131,
+    "roc_auc": 0.9807291666666668,
+    "missed_findings": 1,
+    "confusion": [
+     [
+      14,
+      0,
+      1
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      9,
+      0,
+      51
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "SVM_RBF +LIDC",
+    "f1_macro": 0.8098008503020809,
+    "accuracy": 0.8910256410256411,
+    "benign_recall": 0.8,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.7666666666666667,
+    "benign_precision": 0.46153846153846156,
+    "roc_auc": 0.9869496158392436,
+    "missed_findings": 3,
+    "confusion": [
+     [
+      12,
+      0,
+      3
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      14,
+      0,
+      46
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0749,
+    "ci95_lo": -0.1641,
+    "ci95_hi": 0.0167,
+    "p_value": 0.1,
+    "significant_at_0.05": false
+   }
+  },
+  "Hybrid_meta": {
+   "baseline": {
+    "name": "Hybrid_meta base",
+    "f1_macro": 0.9205508474576272,
+    "accuracy": 0.9615384615384616,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "benign_precision": 0.7647058823529411,
+    "roc_auc": 0.9813755910165485,
+    "missed_findings": 2,
+    "confusion": [
+     [
+      13,
+      0,
+      2
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      4,
+      0,
+      56
+     ]
+    ]
+   },
+   "lidc": {
+    "name": "Hybrid_meta +LIDC",
+    "f1_macro": 0.8576345304566697,
+    "accuracy": 0.8974358974358975,
+    "benign_recall": 0.6666666666666666,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8166666666666667,
+    "benign_precision": 0.9090909090909091,
+    "roc_auc": 0.9857368006304177,
+    "missed_findings": 4,
+    "confusion": [
+     [
+      10,
+      1,
+      4
+     ],
+     [
+      0,
+      81,
+      0
+     ],
+     [
+      1,
+      10,
+      49
+     ]
+    ]
+   },
+   "paired_test": {
+    "mean_diff": -0.0639,
+    "ci95_lo": -0.1545,
+    "ci95_hi": 0.0238,
+    "p_value": 0.144,
+    "significant_at_0.05": false
+   }
+  }
+ },
+ "headline": {
+  "best_baseline": {
+   "branch": "Hybrid_meta",
+   "name": "Hybrid_meta base",
+   "f1_macro": 0.9247214694369167,
+   "accuracy": 0.967948717948718,
+   "benign_recall": 0.7333333333333333,
+   "malignant_recall": 1.0,
+   "normal_recall": 0.9833333333333333,
+   "benign_precision": 0.9166666666666666,
+   "roc_auc": 0.9786963159968479,
+   "missed_findings": 4,
+   "confusion": [
+    [
+     11,
+     0,
+     4
+    ],
+    [
+     0,
+     81,
+     0
+    ],
+    [
+     1,
+     0,
+     59
+    ]
+   ]
+  },
+  "best_lidc": {
+   "branch": "Quantum_4q",
+   "name": "Quantum_4q +LIDC",
+   "f1_macro": 0.8712030558090795,
+   "accuracy": 0.9038461538461539,
+   "benign_recall": 0.6666666666666666,
+   "malignant_recall": 1.0,
+   "normal_recall": 0.8333333333333334,
+   "benign_precision": 1.0,
+   "roc_auc": 0.9842284771473602,
+   "missed_findings": 4,
+   "confusion": [
+    [
+     10,
+     1,
+     4
+    ],
+    [
+     0,
+     81,
+     0
+    ],
+    [
+     0,
+     10,
+     50
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "problem": "EfficientNet-B3 (10.7M params) on 632 ROIs from 35 patients overfits: best val at epoch 3, held-out AUC 0.680 vs 0.898 for a 6-feature linear model.",
+ "method_note": "Evaluated with StratifiedGroupKFold over all 50 patients so every patient is tested once. The previous single 8-patient split was too small to compare strategies.",
+ "n_rois": 922,
+ "n_patients": 50,
+ "folds": 5,
+ "results": {
+  "A_baseline_effnet_b3": {
+   "roc_auc": 0.7263,
+   "ci95": [
+    0.6918,
+    0.7598
+   ],
+   "patient_auc": 0.6997
+  },
+  "B_small_backbone": {
+   "roc_auc": 0.7853,
+   "ci95": [
+    0.752,
+    0.814
+   ],
+   "patient_auc": 0.8003
+  },
+  "C_frozen_features": {
+   "roc_auc": 0.6112,
+   "ci95": [
+    0.5729,
+    0.6511
+   ],
+   "patient_auc": 0.7697
+  },
+  "D_regularised": {
+   "roc_auc": 0.5548,
+   "ci95": [
+    0.5162,
+    0.5963
+   ],
+   "patient_auc": 0.4928
+  },
+  "E_fusion": {
+   "roc_auc": 0.7395,
+   "ci95": [
+    0.7058,
+    0.7725
+   ],
+   "patient_auc": 0.8631
+  },
+  "F_handcrafted_only": {
+   "roc_auc": 0.8617,
+   "ci95": [
+    0.836,
+    0.8874
+   ],
+   "patient_auc": 0.8631
+  }
+ },
+ "baseline": 0.7263,
+ "best": {
+  "strategy": "F_handcrafted_only",
+  "roc_auc": 0.8617,
+  "ci95": [
+   0.836,
+   0.8874
+  ],
+  "patient_auc": 0.8631
+ }
+}

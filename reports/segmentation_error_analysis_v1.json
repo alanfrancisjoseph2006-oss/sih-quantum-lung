@@ -1,0 +1,41 @@
+{
+ "n_slices": 168,
+ "detection_rate": 0.5536,
+ "missed_entirely": 75,
+ "dice_over_detected_only": 0.7054,
+ "dice_over_all": 0.3905,
+ "median_centroid_error_px": 0.24,
+ "median_centroid_error_mm": 0.17,
+ "median_area_ratio_pred_over_true": 1.062,
+ "false_positive_blobs_per_slice": 0.351,
+ "dice_by_nodule_size": {
+  "small (<40px)": [
+   0.2534,
+   48
+  ],
+  "medium (40-120px)": [
+   0.5072,
+   82
+  ],
+  "large (>120px)": [
+   0.3119,
+   38
+  ]
+ },
+ "diagnosis": {
+  "headline": "Failure mode is DETECTION (sensitivity), not DELINEATION (precision).",
+  "when_it_detects": "Dice 0.705, median centroid error 0.24 px (~0.17 mm), predicted/true area ratio 1.06 - the outline is close to the radiologist consensus.",
+  "when_it_misses": "Median peak probability inside the true nodule is 0.0003, and 97% of misses are below 0.05. The model produces essentially NO response, rather than a weak one.",
+  "threshold_is_not_the_fix": "Sweeping the operating threshold from 0.05 to 0.55 on validation moved the detection rate by less than 3 points (0.574 -> 0.549). The misses cannot be recovered by lowering the threshold.",
+  "peak_prob_detected_median": 1.0,
+  "peak_prob_missed_median": 0.0003,
+  "median_area_detected_px": 72,
+  "median_area_missed_px": 60,
+  "likely_cause": "2D single-slice inference. A nodule that is unambiguous when a radiologist scrolls through the volume can be indistinguishable from a vessel cross-section in one slice. The model also saw only 35 training patients.",
+  "what_would_fix_it": [
+   "3D or multi-slice input (2.5D stacking of adjacent slices)",
+   "more annotated patients - the full LIDC collection has ~1000",
+   "a detection-first architecture (e.g. nodule candidate proposal + false-positive reduction) rather than pure semantic segmentation"
+  ]
+ }
+}

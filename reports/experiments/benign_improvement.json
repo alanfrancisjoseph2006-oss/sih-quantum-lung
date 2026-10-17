@@ -1,0 +1,291 @@
+{
+ "baseline": {
+  "val": {
+   "name": "BASELINE Quantum_4q (val)",
+   "f1_macro": 0.9593385741393332,
+   "benign_recall": 0.9333333333333333,
+   "malignant_recall": 1.0,
+   "normal_recall": 0.9666666666666667,
+   "missed_findings": 1,
+   "accuracy": 0.9808917197452229,
+   "roc_auc": 0.9846941903425134
+  },
+  "test": {
+   "name": "BASELINE Quantum_4q (test)",
+   "f1_macro": 0.9010763938873655,
+   "benign_recall": 0.7333333333333333,
+   "malignant_recall": 0.9876543209876543,
+   "normal_recall": 0.9666666666666667,
+   "missed_findings": 4,
+   "accuracy": 0.9551282051282052,
+   "roc_auc": 0.9799571513002364
+  }
+ },
+ "strategies": {
+  "A_cascade": {
+   "val": {
+    "name": "A_cascade",
+    "f1_macro": 0.9322309568988887,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 2,
+    "accuracy": 0.9681528662420382,
+    "roc_auc": 0.9889518093670846
+   },
+   "test": {
+    "name": "A_cascade",
+    "f1_macro": 0.8985801217038539,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9,
+    "missed_findings": 2,
+    "accuracy": 0.9487179487179487,
+    "roc_auc": 0.9721508077226163
+   }
+  },
+  "B_logreg_benign_x2": {
+   "val": {
+    "name": "B_logreg_benign_x2",
+    "f1_macro": 0.9205508474576272,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9617834394904459,
+    "roc_auc": 0.9838850975267412
+   },
+   "test": {
+    "name": "B_logreg_benign_x2",
+    "f1_macro": 0.8695907414442884,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.8666666666666667,
+    "missed_findings": 2,
+    "accuracy": 0.9294871794871795,
+    "roc_auc": 0.9721027876280536
+   }
+  },
+  "B_rf_benign_x2": {
+   "val": {
+    "name": "B_rf_benign_x2",
+    "f1_macro": 0.9322309568988887,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 2,
+    "accuracy": 0.9681528662420382,
+    "roc_auc": 0.989900859913202
+   },
+   "test": {
+    "name": "B_rf_benign_x2",
+    "f1_macro": 0.8881987577639752,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8833333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9423076923076923,
+    "roc_auc": 0.9822534968479117
+   }
+  },
+  "B_logreg_benign_x3": {
+   "val": {
+    "name": "B_logreg_benign_x3",
+    "f1_macro": 0.9205508474576272,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9617834394904459,
+    "roc_auc": 0.9837132762208993
+   },
+   "test": {
+    "name": "B_logreg_benign_x3",
+    "f1_macro": 0.8695907414442884,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.8666666666666667,
+    "missed_findings": 2,
+    "accuracy": 0.9294871794871795,
+    "roc_auc": 0.9724469316390859
+   }
+  },
+  "B_rf_benign_x3": {
+   "val": {
+    "name": "B_rf_benign_x3",
+    "f1_macro": 0.9205508474576272,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9617834394904459,
+    "roc_auc": 0.9856355774970557
+   },
+   "test": {
+    "name": "B_rf_benign_x3",
+    "f1_macro": 0.8881987577639752,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8833333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9423076923076923,
+    "roc_auc": 0.9806534426713948
+   }
+  },
+  "B_logreg_benign_x4": {
+   "val": {
+    "name": "B_logreg_benign_x4",
+    "f1_macro": 0.9205508474576272,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9617834394904459,
+    "roc_auc": 0.9835414549150574
+   },
+   "test": {
+    "name": "B_logreg_benign_x4",
+    "f1_macro": 0.8695907414442884,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.8666666666666667,
+    "missed_findings": 2,
+    "accuracy": 0.9294871794871795,
+    "roc_auc": 0.9723761327817179
+   }
+  },
+  "B_rf_benign_x4": {
+   "val": {
+    "name": "B_rf_benign_x4",
+    "f1_macro": 0.9205508474576272,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9333333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9617834394904459,
+    "roc_auc": 0.9838165303389639
+   },
+   "test": {
+    "name": "B_rf_benign_x4",
+    "f1_macro": 0.8881987577639752,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.8833333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9423076923076923,
+    "roc_auc": 0.9813706658786446
+   }
+  },
+  "C_cv_threshold_on_quantum": {
+   "val": {
+    "name": "C_cv_threshold_on_quantum",
+    "f1_macro": 0.9611499611499612,
+    "benign_recall": 1.0,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 0,
+    "accuracy": 0.9808917197452229,
+    "roc_auc": NaN
+   },
+   "test": {
+    "name": "C_cv_threshold_on_quantum",
+    "f1_macro": 0.9140215606482472,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.9166666666666666,
+    "missed_findings": 1,
+    "accuracy": 0.9551282051282052,
+    "roc_auc": NaN
+   }
+  },
+  "D_ens_cnn": {
+   "val": {
+    "name": "D_ens_cnn",
+    "f1_macro": 0.9470338983050848,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 1,
+    "accuracy": 0.9745222929936306,
+    "roc_auc": 0.9918840649855606
+   },
+   "test": {
+    "name": "D_ens_cnn",
+    "f1_macro": 0.9322309568988887,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 2,
+    "accuracy": 0.967948717948718,
+    "roc_auc": 0.9964206560283687
+   }
+  },
+  "D_ens_quantum": {
+   "val": {
+    "name": "D_ens_quantum",
+    "f1_macro": 0.9593385741393332,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9666666666666667,
+    "missed_findings": 1,
+    "accuracy": 0.9808917197452229,
+    "roc_auc": 0.9910975590081151
+   },
+   "test": {
+    "name": "D_ens_quantum",
+    "f1_macro": 0.945220699370897,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 0.9876543209876543,
+    "normal_recall": 0.9833333333333333,
+    "missed_findings": 2,
+    "accuracy": 0.9743589743589743,
+    "roc_auc": 0.9952915681639086
+   }
+  },
+  "D_ens_cnn_plus_densesvm": {
+   "val": {
+    "name": "D_ens_cnn_plus_densesvm",
+    "f1_macro": 0.9470338983050848,
+    "benign_recall": 0.9333333333333333,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.95,
+    "missed_findings": 1,
+    "accuracy": 0.9745222929936306,
+    "roc_auc": 0.9917848442314829
+   },
+   "test": {
+    "name": "D_ens_cnn_plus_densesvm",
+    "f1_macro": 0.9444444444444445,
+    "benign_recall": 0.8666666666666667,
+    "malignant_recall": 1.0,
+    "normal_recall": 0.9666666666666667,
+    "missed_findings": 2,
+    "accuracy": 0.9743589743589743,
+    "roc_auc": 0.996378792356186
+   }
+  }
+ },
+ "winner": {
+  "name": "C_cv_threshold_on_quantum",
+  "val": {
+   "name": "C_cv_threshold_on_quantum",
+   "f1_macro": 0.9611499611499612,
+   "benign_recall": 1.0,
+   "malignant_recall": 1.0,
+   "normal_recall": 0.95,
+   "missed_findings": 0,
+   "accuracy": 0.9808917197452229,
+   "roc_auc": NaN
+  },
+  "test": {
+   "name": "WINNER C_cv_threshold_on_quantum",
+   "f1_macro": 0.9140215606482472,
+   "benign_recall": 0.9333333333333333,
+   "malignant_recall": 0.9876543209876543,
+   "normal_recall": 0.9166666666666666,
+   "missed_findings": 1,
+   "accuracy": 0.9551282051282052,
+   "roc_auc": NaN
+  }
+ }
+}

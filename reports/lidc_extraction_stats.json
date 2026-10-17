@@ -1,0 +1,8 @@
+{
+ "nodules_indeterminate": 74,
+ "nodules_benign": 266,
+ "nodules_malignant": 111,
+ "slices_benign": 625,
+ "slices_mixed_labelled_malignant": 16,
+ "slices_malignant": 302
+}

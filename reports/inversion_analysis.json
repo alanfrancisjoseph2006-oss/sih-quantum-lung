@@ -1,0 +1,21 @@
+{
+ "question": "Why is external AUC consistently below 0.5?",
+ "h1_size_confound": {
+  "benign_median_area_px": 51.0,
+  "malignant_median_area_px": 204.0,
+  "mannwhitney_p": 2.791335929914307e-75,
+  "auc_of_size_alone": 0.8727
+ },
+ "h2_score_tracks_size": {
+  "spearman_score_vs_area": 0.0502,
+  "p_value": 0.12745748775572702,
+  "model_auc": 0.4566
+ },
+ "h3_systematic_inversion": {
+  "auc_as_is": 0.4566,
+  "auc_inverted": 0.5434,
+  "verdict": "No systematic inversion; the failure looks like noise around chance."
+ },
+ "size_matched_auc": 0.3656,
+ "interpretation_warning": "Inverting a model's score to improve a metric is NOT a fix. It would be fitting to the external test set, and the sign could differ on the next dataset. This analysis is diagnostic only; no inverted model is deployed."
+}

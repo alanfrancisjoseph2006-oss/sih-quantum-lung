@@ -1,0 +1,346 @@
+{
+ "experiment": "unet_nodule_segmentation_25d",
+ "timestamp": "2026-09-03 17:25:41",
+ "seed": 42,
+ "hardware": {
+  "torch": "2.6.0+cu124",
+  "cuda": true,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "vram_gb": 6.44,
+  "amp": true
+ },
+ "train_time_min": 21.59,
+ "input": "2.5D stack of slices z-1 / z / z+1 (3 channels)",
+ "architecture": "UNet(in_ch=3, base=24, depth=4)",
+ "split": {
+  "patients_train": 35,
+  "patients_val": 7,
+  "patients_test": 8,
+  "note": "identical patients to the 2D run"
+ },
+ "threshold_tuned_on_validation": 0.20000000000000004,
+ "test_decomposed": {
+  "n_slices": 168,
+  "detection_rate": 0.5536,
+  "missed_entirely": 75,
+  "dice_over_detected_only": 0.6509,
+  "dice_over_all": 0.3603,
+  "median_centroid_error_px": 0.39,
+  "median_centroid_error_mm": 0.27,
+  "false_positive_blobs_per_slice": 0.524
+ },
+ "baseline_2d": {
+  "n_slices": 168,
+  "detection_rate": 0.5536,
+  "missed_entirely": 75,
+  "dice_over_detected_only": 0.7054,
+  "dice_over_all": 0.3905,
+  "median_centroid_error_px": 0.24,
+  "median_centroid_error_mm": 0.17,
+  "median_area_ratio_pred_over_true": 1.062,
+  "false_positive_blobs_per_slice": 0.351,
+  "dice_by_nodule_size": {
+   "small (<40px)": [
+    0.2534,
+    48
+   ],
+   "medium (40-120px)": [
+    0.5072,
+    82
+   ],
+   "large (>120px)": [
+    0.3119,
+    38
+   ]
+  },
+  "diagnosis": {
+   "headline": "Failure mode is DETECTION (sensitivity), not DELINEATION (precision).",
+   "when_it_detects": "Dice 0.705, median centroid error 0.24 px (~0.17 mm), predicted/true area ratio 1.06 - the outline is close to the radiologist consensus.",
+   "when_it_misses": "Median peak probability inside the true nodule is 0.0003, and 97% of misses are below 0.05. The model produces essentially NO response, rather than a weak one.",
+   "threshold_is_not_the_fix": "Sweeping the operating threshold from 0.05 to 0.55 on validation moved the detection rate by less than 3 points (0.574 -> 0.549). The misses cannot be recovered by lowering the threshold.",
+   "peak_prob_detected_median": 1.0,
+   "peak_prob_missed_median": 0.0003,
+   "median_area_detected_px": 72,
+   "median_area_missed_px": 60,
+   "likely_cause": "2D single-slice inference. A nodule that is unambiguous when a radiologist scrolls through the volume can be indistinguishable from a vessel cross-section in one slice. The model also saw only 35 training patients.",
+   "what_would_fix_it": [
+    "3D or multi-slice input (2.5D stacking of adjacent slices)",
+    "more annotated patients - the full LIDC collection has ~1000",
+    "a detection-first architecture (e.g. nodule candidate proposal + false-positive reduction) rather than pure semantic segmentation"
+   ]
+  }
+ },
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 1.1632,
+   "val_dice": 0.0,
+   "val_iou": 0.0
+  },
+  {
+   "epoch": 2,
+   "loss": 1.0348,
+   "val_dice": 0.038,
+   "val_iou": 0.0211
+  },
+  {
+   "epoch": 3,
+   "loss": 1.0086,
+   "val_dice": 0.0221,
+   "val_iou": 0.0114
+  },
+  {
+   "epoch": 4,
+   "loss": 0.9894,
+   "val_dice": 0.1026,
+   "val_iou": 0.0651
+  },
+  {
+   "epoch": 5,
+   "loss": 0.9571,
+   "val_dice": 0.1179,
+   "val_iou": 0.0742
+  },
+  {
+   "epoch": 6,
+   "loss": 0.9436,
+   "val_dice": 0.0944,
+   "val_iou": 0.0532
+  },
+  {
+   "epoch": 7,
+   "loss": 0.9307,
+   "val_dice": 0.1048,
+   "val_iou": 0.0629
+  },
+  {
+   "epoch": 8,
+   "loss": 0.923,
+   "val_dice": 0.1262,
+   "val_iou": 0.0789
+  },
+  {
+   "epoch": 9,
+   "loss": 0.9146,
+   "val_dice": 0.0636,
+   "val_iou": 0.0456
+  },
+  {
+   "epoch": 10,
+   "loss": 0.9136,
+   "val_dice": 0.1229,
+   "val_iou": 0.0798
+  },
+  {
+   "epoch": 11,
+   "loss": 0.8758,
+   "val_dice": 0.1364,
+   "val_iou": 0.0846
+  },
+  {
+   "epoch": 12,
+   "loss": 0.8352,
+   "val_dice": 0.1886,
+   "val_iou": 0.1237
+  },
+  {
+   "epoch": 13,
+   "loss": 0.8287,
+   "val_dice": 0.1827,
+   "val_iou": 0.1339
+  },
+  {
+   "epoch": 14,
+   "loss": 0.8176,
+   "val_dice": 0.1911,
+   "val_iou": 0.1274
+  },
+  {
+   "epoch": 15,
+   "loss": 0.8167,
+   "val_dice": 0.1425,
+   "val_iou": 0.1162
+  },
+  {
+   "epoch": 16,
+   "loss": 0.7716,
+   "val_dice": 0.2192,
+   "val_iou": 0.1651
+  },
+  {
+   "epoch": 17,
+   "loss": 0.7591,
+   "val_dice": 0.2538,
+   "val_iou": 0.1867
+  },
+  {
+   "epoch": 18,
+   "loss": 0.7475,
+   "val_dice": 0.2839,
+   "val_iou": 0.2181
+  },
+  {
+   "epoch": 19,
+   "loss": 0.726,
+   "val_dice": 0.2137,
+   "val_iou": 0.145
+  },
+  {
+   "epoch": 20,
+   "loss": 0.7073,
+   "val_dice": 0.2501,
+   "val_iou": 0.1653
+  },
+  {
+   "epoch": 21,
+   "loss": 0.676,
+   "val_dice": 0.3082,
+   "val_iou": 0.2349
+  },
+  {
+   "epoch": 22,
+   "loss": 0.661,
+   "val_dice": 0.2891,
+   "val_iou": 0.2286
+  },
+  {
+   "epoch": 23,
+   "loss": 0.6592,
+   "val_dice": 0.2829,
+   "val_iou": 0.2181
+  },
+  {
+   "epoch": 24,
+   "loss": 0.6414,
+   "val_dice": 0.3313,
+   "val_iou": 0.2631
+  },
+  {
+   "epoch": 25,
+   "loss": 0.6051,
+   "val_dice": 0.3145,
+   "val_iou": 0.2471
+  },
+  {
+   "epoch": 26,
+   "loss": 0.6005,
+   "val_dice": 0.2854,
+   "val_iou": 0.229
+  },
+  {
+   "epoch": 27,
+   "loss": 0.5712,
+   "val_dice": 0.33,
+   "val_iou": 0.2645
+  },
+  {
+   "epoch": 28,
+   "loss": 0.6017,
+   "val_dice": 0.3383,
+   "val_iou": 0.2704
+  },
+  {
+   "epoch": 29,
+   "loss": 0.5639,
+   "val_dice": 0.3726,
+   "val_iou": 0.2899
+  },
+  {
+   "epoch": 30,
+   "loss": 0.5473,
+   "val_dice": 0.3368,
+   "val_iou": 0.2697
+  },
+  {
+   "epoch": 31,
+   "loss": 0.5243,
+   "val_dice": 0.3864,
+   "val_iou": 0.3108
+  },
+  {
+   "epoch": 32,
+   "loss": 0.5146,
+   "val_dice": 0.3734,
+   "val_iou": 0.2978
+  },
+  {
+   "epoch": 33,
+   "loss": 0.5148,
+   "val_dice": 0.3384,
+   "val_iou": 0.2775
+  },
+  {
+   "epoch": 34,
+   "loss": 0.5117,
+   "val_dice": 0.3641,
+   "val_iou": 0.2929
+  },
+  {
+   "epoch": 35,
+   "loss": 0.4979,
+   "val_dice": 0.3524,
+   "val_iou": 0.2877
+  },
+  {
+   "epoch": 36,
+   "loss": 0.5042,
+   "val_dice": 0.3783,
+   "val_iou": 0.3093
+  },
+  {
+   "epoch": 37,
+   "loss": 0.4862,
+   "val_dice": 0.3627,
+   "val_iou": 0.2971
+  },
+  {
+   "epoch": 38,
+   "loss": 0.4855,
+   "val_dice": 0.3417,
+   "val_iou": 0.28
+  },
+  {
+   "epoch": 39,
+   "loss": 0.4778,
+   "val_dice": 0.3751,
+   "val_iou": 0.3051
+  },
+  {
+   "epoch": 40,
+   "loss": 0.4711,
+   "val_dice": 0.3616,
+   "val_iou": 0.2958
+  },
+  {
+   "epoch": 41,
+   "loss": 0.4695,
+   "val_dice": 0.3556,
+   "val_iou": 0.2893
+  },
+  {
+   "epoch": 42,
+   "loss": 0.4671,
+   "val_dice": 0.3605,
+   "val_iou": 0.2933
+  },
+  {
+   "epoch": 43,
+   "loss": 0.4709,
+   "val_dice": 0.3529,
+   "val_iou": 0.2891
+  },
+  {
+   "epoch": 44,
+   "loss": 0.4657,
+   "val_dice": 0.3542,
+   "val_iou": 0.2887
+  },
+  {
+   "epoch": 45,
+   "loss": 0.4599,
+   "val_dice": 0.3502,
+   "val_iou": 0.2881
+  }
+ ]
+}

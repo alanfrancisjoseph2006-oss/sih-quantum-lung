@@ -1,0 +1,67 @@
+{
+ "level": 2,
+ "level_name": "Internally validated",
+ "level_meaning": "Held-out performance measured with leakage controls, on data from the same source as training.",
+ "levels": {
+  "1": {
+   "name": "Prototype",
+   "meaning": "Trains and produces output. No validation claim."
+  },
+  "2": {
+   "name": "Internally validated",
+   "meaning": "Held-out performance measured with leakage controls, on data from the same source as training."
+  },
+  "3": {
+   "name": "Externally validated",
+   "meaning": "Performs meaningfully better than chance on data from a site, scanner or population it was never trained on."
+  },
+  "4": {
+   "name": "Multi-centre validated",
+   "meaning": "External performance holds across several independent centres."
+  },
+  "5": {
+   "name": "Clinical research ready",
+   "meaning": "Prospective validation, defined intended use, regulatory pathway."
+  }
+ },
+ "criteria": [
+  {
+   "level": 1,
+   "criterion": "Model trains and produces output",
+   "met": true,
+   "evidence": "reports/model_comparison.json present"
+  },
+  {
+   "level": 2,
+   "criterion": "Held-out performance with leakage controls",
+   "met": true,
+   "evidence": "group-aware split verified; in-domain macro ROC-AUC 0.980"
+  },
+  {
+   "level": 3,
+   "criterion": "Above chance on an unseen dataset",
+   "met": false,
+   "evidence": "external ROC-AUC 0.488, 95% CI 0.449-0.528 - does not exclude chance (0.50)"
+  },
+  {
+   "level": 4,
+   "criterion": "Holds across multiple independent centres",
+   "met": false,
+   "evidence": "only one external dataset has been tested"
+  },
+  {
+   "level": 5,
+   "criterion": "Prospective validation and regulatory pathway",
+   "met": false,
+   "evidence": "not attempted; this is a research prototype"
+  }
+ ],
+ "blocking_criterion": {
+  "level": 3,
+  "criterion": "Above chance on an unseen dataset",
+  "met": false,
+  "evidence": "external ROC-AUC 0.488, 95% CI 0.449-0.528 - does not exclude chance (0.50)"
+ },
+ "clinically_deployable": false,
+ "statement": "Readiness level 2 of 5 - Internally validated. Blocked at level 3: external ROC-AUC 0.488, 95% CI 0.449-0.528 - does not exclude chance (0.50). This is a research prototype and is not clinically deployable."
+}

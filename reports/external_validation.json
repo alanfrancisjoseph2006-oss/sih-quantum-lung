@@ -1,0 +1,48 @@
+{
+ "external_dataset": "LIDC-IDRI (TCIA)",
+ "why_fair": "The deployed classifier was trained only on IQ-OTH/NCCD; every row of its training split file has source=IQ-OTH. LIDC is a different country, hospitals, scanners and reconstruction pipeline.",
+ "n_slices": 922,
+ "n_patients": 50,
+ "label_counts": {
+  "benign": 622,
+  "malignant": 300
+ },
+ "prediction_distribution": {
+  "benign": 51,
+  "malignant": 708,
+  "normal": 163
+ },
+ "lesion_slices_called_normal": 163,
+ "slice_level": {
+  "roc_auc": 0.4883,
+  "ci95": [
+   0.4485,
+   0.5283
+  ],
+  "average_precision": 0.3457,
+  "sensitivity_argmax": 0.9309,
+  "specificity_argmax": 0.0663
+ },
+ "patient_level": {
+  "roc_auc": 0.5604,
+  "ci95": [
+   0.3913,
+   0.7209
+  ]
+ },
+ "in_domain_reference": {
+  "n": 96,
+  "roc_auc": 1.0,
+  "ci95": [
+   1.0,
+   1.0
+  ]
+ },
+ "auc_change_external_minus_internal": -0.5117,
+ "caveats": [
+  "LIDC contains no normal class; this is benign-vs-malignant discrimination, not screening performance.",
+  "LIDC labels are averaged radiologist impression (1-5), not pathology.",
+  "Nodules with a mean malignancy of exactly 3 were excluded as indeterminate.",
+  "Slices are lesion-centred by construction, so prevalence here is not clinical prevalence."
+ ]
+}

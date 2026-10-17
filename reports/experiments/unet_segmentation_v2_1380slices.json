@@ -1,0 +1,394 @@
+{
+ "experiment": "unet_nodule_segmentation",
+ "timestamp": "2026-09-03 18:05:01",
+ "seed": 42,
+ "hardware": {
+  "torch": "2.6.0+cu124",
+  "cuda": true,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "vram_gb": 6.44,
+  "amp": true
+ },
+ "train_time_min": 34.6,
+ "architecture": "UNet(base=24, depth=4)",
+ "params_millions": 4.368,
+ "loss": "Dice + 0.5*BCE(pos_weight=20)",
+ "input_size": 512,
+ "hyperparameters": {
+  "epochs": 55,
+  "batch_size": 6,
+  "lr": 0.002,
+  "amp_dtype": "torch.bfloat16"
+ },
+ "split": {
+  "patients_train": 35,
+  "patients_val": 7,
+  "patients_test": 8,
+  "slices_train": 954,
+  "slices_val": 176,
+  "slices_test": 250,
+  "policy": "patient-level on real LIDC patient IDs"
+ },
+ "threshold_tuned_on_validation": 0.45000000000000007,
+ "in_domain_test": {
+  "dice": 0.3453,
+  "iou": 0.2844,
+  "n_slices": 250,
+  "n_patients": 8
+ },
+ "cross_domain_probe": {
+  "benign": {
+   "n": 30,
+   "fired": 1,
+   "fire_rate": 0.0333,
+   "mean_area_frac_when_fired": 9.9e-05
+  },
+  "malignant": {
+   "n": 163,
+   "fired": 16,
+   "fire_rate": 0.0982,
+   "mean_area_frac_when_fired": 0.000168
+  },
+  "normal": {
+   "n": 120,
+   "fired": 9,
+   "fire_rate": 0.075,
+   "mean_area_frac_when_fired": 7.3e-05
+  }
+ },
+ "malignant_to_normal_firing_ratio": 1.309,
+ "transfer_verdict": "Fires somewhat more on malignant than normal, but the margin is weak. Transfer is partial and the output must be treated as a suggestion only.",
+ "history": [
+  {
+   "epoch": 1,
+   "loss": 1.061,
+   "val_dice": 0.0846,
+   "val_iou": 0.0505
+  },
+  {
+   "epoch": 2,
+   "loss": 0.9872,
+   "val_dice": 0.0739,
+   "val_iou": 0.0427
+  },
+  {
+   "epoch": 3,
+   "loss": 0.9632,
+   "val_dice": 0.1033,
+   "val_iou": 0.0699
+  },
+  {
+   "epoch": 4,
+   "loss": 0.9229,
+   "val_dice": 0.1175,
+   "val_iou": 0.0775
+  },
+  {
+   "epoch": 5,
+   "loss": 0.8761,
+   "val_dice": 0.143,
+   "val_iou": 0.0899
+  },
+  {
+   "epoch": 6,
+   "loss": 0.8244,
+   "val_dice": 0.1606,
+   "val_iou": 0.1201
+  },
+  {
+   "epoch": 7,
+   "loss": 0.8011,
+   "val_dice": 0.2005,
+   "val_iou": 0.1547
+  },
+  {
+   "epoch": 8,
+   "loss": 0.7939,
+   "val_dice": 0.1912,
+   "val_iou": 0.1441
+  },
+  {
+   "epoch": 9,
+   "loss": 0.748,
+   "val_dice": 0.1656,
+   "val_iou": 0.1162
+  },
+  {
+   "epoch": 10,
+   "loss": 0.7302,
+   "val_dice": 0.2255,
+   "val_iou": 0.1709
+  },
+  {
+   "epoch": 11,
+   "loss": 0.7118,
+   "val_dice": 0.2419,
+   "val_iou": 0.1745
+  },
+  {
+   "epoch": 12,
+   "loss": 0.7133,
+   "val_dice": 0.1318,
+   "val_iou": 0.1007
+  },
+  {
+   "epoch": 13,
+   "loss": 0.6852,
+   "val_dice": 0.1703,
+   "val_iou": 0.135
+  },
+  {
+   "epoch": 14,
+   "loss": 0.6824,
+   "val_dice": 0.1832,
+   "val_iou": 0.1405
+  },
+  {
+   "epoch": 15,
+   "loss": 0.649,
+   "val_dice": 0.2736,
+   "val_iou": 0.2095
+  },
+  {
+   "epoch": 16,
+   "loss": 0.6423,
+   "val_dice": 0.2903,
+   "val_iou": 0.2212
+  },
+  {
+   "epoch": 17,
+   "loss": 0.6226,
+   "val_dice": 0.2857,
+   "val_iou": 0.2299
+  },
+  {
+   "epoch": 18,
+   "loss": 0.611,
+   "val_dice": 0.2998,
+   "val_iou": 0.2233
+  },
+  {
+   "epoch": 19,
+   "loss": 0.6044,
+   "val_dice": 0.272,
+   "val_iou": 0.2044
+  },
+  {
+   "epoch": 20,
+   "loss": 0.5958,
+   "val_dice": 0.2795,
+   "val_iou": 0.2211
+  },
+  {
+   "epoch": 21,
+   "loss": 0.583,
+   "val_dice": 0.2605,
+   "val_iou": 0.2027
+  },
+  {
+   "epoch": 22,
+   "loss": 0.5946,
+   "val_dice": 0.2883,
+   "val_iou": 0.2306
+  },
+  {
+   "epoch": 23,
+   "loss": 0.5786,
+   "val_dice": 0.2544,
+   "val_iou": 0.1938
+  },
+  {
+   "epoch": 24,
+   "loss": 0.5596,
+   "val_dice": 0.3056,
+   "val_iou": 0.2359
+  },
+  {
+   "epoch": 25,
+   "loss": 0.5508,
+   "val_dice": 0.2831,
+   "val_iou": 0.2234
+  },
+  {
+   "epoch": 26,
+   "loss": 0.5471,
+   "val_dice": 0.2961,
+   "val_iou": 0.2352
+  },
+  {
+   "epoch": 27,
+   "loss": 0.539,
+   "val_dice": 0.2837,
+   "val_iou": 0.2224
+  },
+  {
+   "epoch": 28,
+   "loss": 0.5341,
+   "val_dice": 0.3035,
+   "val_iou": 0.2347
+  },
+  {
+   "epoch": 29,
+   "loss": 0.5236,
+   "val_dice": 0.2782,
+   "val_iou": 0.2226
+  },
+  {
+   "epoch": 30,
+   "loss": 0.5284,
+   "val_dice": 0.2903,
+   "val_iou": 0.2315
+  },
+  {
+   "epoch": 31,
+   "loss": 0.5178,
+   "val_dice": 0.2929,
+   "val_iou": 0.2256
+  },
+  {
+   "epoch": 32,
+   "loss": 0.5151,
+   "val_dice": 0.2876,
+   "val_iou": 0.2361
+  },
+  {
+   "epoch": 33,
+   "loss": 0.4925,
+   "val_dice": 0.287,
+   "val_iou": 0.2337
+  },
+  {
+   "epoch": 34,
+   "loss": 0.4962,
+   "val_dice": 0.3102,
+   "val_iou": 0.2497
+  },
+  {
+   "epoch": 35,
+   "loss": 0.4909,
+   "val_dice": 0.322,
+   "val_iou": 0.2606
+  },
+  {
+   "epoch": 36,
+   "loss": 0.486,
+   "val_dice": 0.3087,
+   "val_iou": 0.2428
+  },
+  {
+   "epoch": 37,
+   "loss": 0.4853,
+   "val_dice": 0.3195,
+   "val_iou": 0.2585
+  },
+  {
+   "epoch": 38,
+   "loss": 0.4741,
+   "val_dice": 0.347,
+   "val_iou": 0.2733
+  },
+  {
+   "epoch": 39,
+   "loss": 0.4669,
+   "val_dice": 0.3253,
+   "val_iou": 0.2648
+  },
+  {
+   "epoch": 40,
+   "loss": 0.4569,
+   "val_dice": 0.3341,
+   "val_iou": 0.2647
+  },
+  {
+   "epoch": 41,
+   "loss": 0.4599,
+   "val_dice": 0.3357,
+   "val_iou": 0.2647
+  },
+  {
+   "epoch": 42,
+   "loss": 0.4603,
+   "val_dice": 0.3222,
+   "val_iou": 0.2572
+  },
+  {
+   "epoch": 43,
+   "loss": 0.4571,
+   "val_dice": 0.3103,
+   "val_iou": 0.2539
+  },
+  {
+   "epoch": 44,
+   "loss": 0.4545,
+   "val_dice": 0.3229,
+   "val_iou": 0.2625
+  },
+  {
+   "epoch": 45,
+   "loss": 0.4433,
+   "val_dice": 0.3145,
+   "val_iou": 0.2568
+  },
+  {
+   "epoch": 46,
+   "loss": 0.4472,
+   "val_dice": 0.3038,
+   "val_iou": 0.2457
+  },
+  {
+   "epoch": 47,
+   "loss": 0.4383,
+   "val_dice": 0.3122,
+   "val_iou": 0.2504
+  },
+  {
+   "epoch": 48,
+   "loss": 0.4413,
+   "val_dice": 0.326,
+   "val_iou": 0.2648
+  },
+  {
+   "epoch": 49,
+   "loss": 0.4384,
+   "val_dice": 0.3254,
+   "val_iou": 0.2655
+  },
+  {
+   "epoch": 50,
+   "loss": 0.4436,
+   "val_dice": 0.3232,
+   "val_iou": 0.2647
+  },
+  {
+   "epoch": 51,
+   "loss": 0.439,
+   "val_dice": 0.3195,
+   "val_iou": 0.2609
+  },
+  {
+   "epoch": 52,
+   "loss": 0.4289,
+   "val_dice": 0.3213,
+   "val_iou": 0.2618
+  },
+  {
+   "epoch": 53,
+   "loss": 0.429,
+   "val_dice": 0.3199,
+   "val_iou": 0.2597
+  },
+  {
+   "epoch": 54,
+   "loss": 0.4334,
+   "val_dice": 0.3111,
+   "val_iou": 0.2538
+  },
+  {
+   "epoch": 55,
+   "loss": 0.4327,
+   "val_dice": 0.3105,
+   "val_iou": 0.2534
+  }
+ ]
+}

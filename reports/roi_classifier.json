@@ -1,0 +1,87 @@
+{
+ "task": "benign vs malignant on nodule-centred ROIs",
+ "dataset": "LIDC-IDRI only (has ground-truth contours)",
+ "split": {
+  "policy": "patient-level on real LIDC patient IDs",
+  "patients": {
+   "train": 35,
+   "val": 7,
+   "test": 8
+  },
+  "rois": {
+   "train": 632,
+   "val": 122,
+   "test": 168
+  }
+ },
+ "roi": {
+  "crop_px": 96,
+  "resized_to": 128,
+  "note": "fixed-size crop so relative lesion size is preserved - size alone predicts malignancy at AUC 0.873"
+ },
+ "results": {
+  "size_only": {
+   "name": "size only (1 feature)",
+   "n": 168,
+   "roc_auc": 0.8584,
+   "roc_auc_ci95": [
+    0.7914,
+    0.9146
+   ],
+   "pr_auc": 0.7704,
+   "sensitivity": 0.5085,
+   "specificity": 0.9541,
+   "patient_level": {
+    "n": 8,
+    "roc_auc": 1.0,
+    "roc_auc_ci95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "handcrafted": {
+   "name": "size + intensity (6 features)",
+   "n": 168,
+   "roc_auc": 0.8975,
+   "roc_auc_ci95": [
+    0.8376,
+    0.9447
+   ],
+   "pr_auc": 0.8234,
+   "sensitivity": 0.7288,
+   "specificity": 0.9266,
+   "patient_level": {
+    "n": 8,
+    "roc_auc": 1.0,
+    "roc_auc_ci95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "roi_cnn": {
+   "name": "ROI CNN (efficientnet_b3)",
+   "n": 168,
+   "roc_auc": 0.6797,
+   "roc_auc_ci95": [
+    0.5833,
+    0.7654
+   ],
+   "pr_auc": 0.5512,
+   "sensitivity": 0.5593,
+   "specificity": 0.7431,
+   "patient_level": {
+    "n": 8,
+    "roc_auc": 0.6875,
+    "roc_auc_ci95": [
+     0.25,
+     1.0
+    ]
+   }
+  }
+ },
+ "whole_image_reference_on_same_data": 0.4566,
+ "limitation": "This demonstrates nodule-focused learning WITHIN LIDC under a patient-level split. It does NOT demonstrate cross-dataset generalisation: IQ-OTH has no nodule annotations, so comparable ROIs cannot be built for it. Cross-dataset ROI validation requires either IQ-OTH annotations or a detector accurate enough to supply them.",
+ "train_minutes": 0.8
+}

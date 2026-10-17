@@ -1,0 +1,208 @@
+{
+ "table1_in_domain": [
+  {
+   "model": "whole-image / baseline",
+   "auc": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "n": 193,
+   "eval": "IQ-OTH held-out"
+  },
+  {
+   "model": "whole-image / harmonised",
+   "auc": 0.989,
+   "ci": [
+    0.9743,
+    0.9978
+   ],
+   "n": 193,
+   "eval": "IQ-OTH held-out"
+  },
+  {
+   "model": "whole-image / dann",
+   "auc": 0.9973,
+   "ci": [
+    0.9925,
+    1.0
+   ],
+   "n": 193,
+   "eval": "IQ-OTH held-out"
+  },
+  {
+   "model": "whole-image / harmonised_dann",
+   "auc": 0.9817,
+   "ci": [
+    0.9607,
+    0.9948
+   ],
+   "n": 193,
+   "eval": "IQ-OTH held-out"
+  }
+ ],
+ "table2_external": [
+  {
+   "model": "whole-image / baseline",
+   "auc": 0.4605,
+   "ci": [
+    0.4218,
+    0.5
+   ],
+   "n": 922,
+   "eval": "LIDC (unseen)"
+  },
+  {
+   "model": "whole-image / harmonised",
+   "auc": 0.3631,
+   "ci": [
+    0.3227,
+    0.4014
+   ],
+   "n": 922,
+   "eval": "LIDC (unseen)"
+  },
+  {
+   "model": "whole-image / dann",
+   "auc": 0.406,
+   "ci": [
+    0.3677,
+    0.4471
+   ],
+   "n": 922,
+   "eval": "LIDC (unseen)"
+  },
+  {
+   "model": "whole-image / harmonised_dann",
+   "auc": 0.353,
+   "ci": [
+    0.3134,
+    0.3923
+   ],
+   "n": 922,
+   "eval": "LIDC (unseen)"
+  },
+  {
+   "model": "ROI / size only (1 feature)",
+   "auc": 0.8584,
+   "ci": [
+    0.7914,
+    0.9146
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI / size + intensity (6 features)",
+   "auc": 0.8975,
+   "ci": [
+    0.8376,
+    0.9447
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI / ROI CNN (efficientnet_b3)",
+   "auc": 0.6797,
+   "ci": [
+    0.5833,
+    0.7654
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI features / LogisticRegression",
+   "auc": 0.9059,
+   "ci": [
+    0.8431,
+    0.9541
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI features / SVM_RBF",
+   "auc": 0.9145,
+   "ci": [
+    0.8635,
+    0.9557
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI features / RandomForest",
+   "auc": 0.9083,
+   "ci": [
+    0.8609,
+    0.949
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI features / Quantum_8q",
+   "auc": 0.8756,
+   "ci": [
+    0.819,
+    0.9266
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  },
+  {
+   "model": "ROI features / Hybrid (SVM_RBF + quantum)",
+   "auc": 0.8985,
+   "ci": [
+    0.8446,
+    0.9444
+   ],
+   "n": 168,
+   "eval": "LIDC held-out patients"
+  }
+ ],
+ "table3_diagnosis": [
+  {
+   "step": "Dataset identity from a whole slice",
+   "value": "AUC 1.000",
+   "meaning": "a linear probe names the source dataset perfectly"
+  },
+  {
+   "step": "Dataset identity from a random lung crop",
+   "value": "AUC 0.937",
+   "meaning": "cropping alone does NOT remove the signature"
+  },
+  {
+   "step": "Best harmonisation found",
+   "value": "domain AUC 0.857",
+   "meaning": "'lung + quantile (hist match)' - still far from 0.5"
+  },
+  {
+   "step": "Whole-image model, external",
+   "value": "AUC 0.488",
+   "meaning": "at chance on unseen hospitals"
+  },
+  {
+   "step": "Harmonisation + domain-adversarial training",
+   "value": "best external AUC 0.461",
+   "meaning": "neither intervention helped"
+  },
+  {
+   "step": "Nodule SIZE alone (LIDC)",
+   "value": "AUC 0.873",
+   "meaning": "a trivial clinical feature works well"
+  },
+  {
+   "step": "Model score vs nodule size",
+   "value": "rho +0.050",
+   "meaning": "the model was ignoring the nodule entirely"
+  },
+  {
+   "step": "ROI features + classical ML",
+   "value": "AUC 0.914",
+   "meaning": "SVM_RBF - focusing on the lesion works"
+  }
+ ]
+}

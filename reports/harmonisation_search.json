@@ -1,0 +1,58 @@
+{
+ "question": "Which preprocessing removes dataset signature while keeping signal?",
+ "n_slices": 520,
+ "n_signal_slices": 260,
+ "baseline": {
+  "domain_auc": 1.0,
+  "signal_auc": 0.559
+ },
+ "results": {
+  "identity (current)": {
+   "domain_auc": 1.0,
+   "signal_auc": 0.559,
+   "verdict": "no improvement"
+  },
+  "lung masked": {
+   "domain_auc": 0.9392,
+   "signal_auc": 0.639,
+   "verdict": "no improvement"
+  },
+  "lung + z-score": {
+   "domain_auc": 0.884,
+   "signal_auc": 0.6296,
+   "verdict": "no improvement"
+  },
+  "lung + hist-eq": {
+   "domain_auc": 0.9391,
+   "signal_auc": 0.6846,
+   "verdict": "signal kept, signature remains"
+  },
+  "lung + quantile (hist match)": {
+   "domain_auc": 0.8569,
+   "signal_auc": 0.6787,
+   "verdict": "signal kept, signature remains"
+  },
+  "gradient only": {
+   "domain_auc": 0.8806,
+   "signal_auc": 0.5247,
+   "verdict": "no improvement"
+  },
+  "band-pass": {
+   "domain_auc": 0.9424,
+   "signal_auc": 0.6001,
+   "verdict": "no improvement"
+  },
+  "band-pass + z-score": {
+   "domain_auc": 0.9092,
+   "signal_auc": 0.6871,
+   "verdict": "signal kept, signature remains"
+  }
+ },
+ "lowest_domain": {
+  "transform": "lung + quantile (hist match)",
+  "domain_auc": 0.8569,
+  "signal_auc": 0.6787,
+  "verdict": "signal kept, signature remains"
+ },
+ "caveat": "Signal AUC is measured with hand-crafted descriptors and a linear model; it is a lower bound on what a CNN could extract. Domain AUC is the quantity being minimised."
+}

@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   QuantumLung Design System
+   Clinical decision-support platform · SIH 2026 · Team CodeNova
+
+   Principles
+   - Neutral, near-white surfaces. Colour carries MEANING, never decoration.
+   - One 4px spacing scale. Nothing off-scale.
+   - Restrained elevation: borders first, shadows only for true overlays.
+   - Semantic risk colours are paired with an icon and a label, never colour alone
+     (accessibility: risk must survive greyscale and colour-blindness).
+   ========================================================================== */
+
+@theme {
+  /* ---- Typography -------------------------------------------------------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Consolas, monospace;
+
+  /* ---- Neutral ramp (interface chrome) ----------------------------------- */
+  --color-canvas: #f7f8fa;        /* app background */
+  --color-surface: #ffffff;       /* cards, panels */
+  --color-surface-sunken: #f2f4f7;
+  --color-surface-hover: #f9fafb;
+
+  --color-line: #e4e7ec;          /* default border */
+  --color-line-strong: #d0d5dd;   /* emphasised border */
+
+  --color-ink: #101828;           /* primary text */
+  --color-ink-secondary: #475467; /* secondary text */
+  --color-ink-tertiary: #667085;  /* meta, captions */
+  --color-ink-disabled: #98a2b3;
+
+  /* ---- Brand / primary interaction --------------------------------------- */
+  --color-primary: #0b5cd5;
+  --color-primary-hover: #0a4fb5;
+  --color-primary-soft: #eaf1fd;
+  --color-primary-border: #b8d0f7;
+
+  /* ---- Semantic: risk & status ------------------------------------------- */
+  --color-low: #067647;           /* low risk / success */
+  --color-low-soft: #ecfdf3;
+  --color-low-border: #abefc6;
+
+  --color-moderate: #b54708;      /* attention */
+  --color-moderate-soft: #fffaeb;
+  --color-moderate-border: #fedf89;
+
+  --color-high: #b42318;          /* high priority */
+  --color-high-soft: #fef3f2;
+  --color-high-border: #fecdca;
+
+  --color-info: #026aa2;
+  --color-info-soft: #f0f9ff;
+  --color-info-border: #b9e6fe;
+
+  /* ---- Quantum accent (used sparingly, technology surfaces only) ---------- */
+  --color-quantum: #6941c6;
+  --color-quantum-soft: #f4f3ff;
+  --color-quantum-border: #d9d6fe;
+
+  /* ---- Radius ------------------------------------------------------------ */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+
+  /* ---- Elevation --------------------------------------------------------- */
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.10), 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 8px -2px rgba(16, 24, 40, 0.10), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+  --shadow-lg: 0 12px 16px -4px rgba(16, 24, 40, 0.08), 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+/* ---- Base ---------------------------------------------------------------- */
+* { border-color: var(--color-line); }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Tabular figures everywhere numbers are compared — clinical tables must align. */
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* ---- Focus: visible, consistent, never removed --------------------------- */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---- Scrollbars: subtle, not invisible ----------------------------------- */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-line-strong);
+  border-radius: 6px;
+  border: 2px solid var(--color-canvas);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-ink-disabled); }
+
+/* ---- Motion: deliberate, short, and respectful of preferences ------------ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg,
+    var(--color-surface-sunken) 0%,
+    #e9edf3 50%,
+    var(--color-surface-sunken) 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-fade-up { animation: fade-up 0.18s ease-out; }
+
+/* ---- Print: reports must print cleanly ----------------------------------- */
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; font-size: 11pt; }
+  .print-break { break-inside: avoid; }
+}

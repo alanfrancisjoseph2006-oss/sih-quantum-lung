@@ -1,0 +1,103 @@
+{
+ "task": "benign vs malignant on nodule ROI features (LIDC, patient-level split)",
+ "why_features_not_embeddings": "Script 26 measured that 6 hand-crafted features beat an EfficientNet-B3 on this data (0.898 vs 0.680) because only 35 training patients are available. A 10-d interpretable vector is also the natural input scale for a small variational circuit - one feature per qubit, no lossy PCA.",
+ "features": [
+  "area_px",
+  "equiv_diameter",
+  "mean_intensity",
+  "std_intensity",
+  "p90_intensity",
+  "p10_intensity",
+  "perimeter",
+  "circularity",
+  "solidity",
+  "contrast_vs_surround"
+ ],
+ "n_qubits": 8,
+ "split": {
+  "train_patients": 35,
+  "test_patients": 8,
+  "train_rois": 632,
+  "test_rois": 168
+ },
+ "results": [
+  {
+   "name": "LogisticRegression",
+   "roc_auc": 0.9059,
+   "roc_auc_ci95": [
+    0.8431,
+    0.9541
+   ],
+   "pr_auc": 0.8629,
+   "patient_auc": 1.0
+  },
+  {
+   "name": "SVM_RBF",
+   "roc_auc": 0.9145,
+   "roc_auc_ci95": [
+    0.8635,
+    0.9557
+   ],
+   "pr_auc": 0.8211,
+   "patient_auc": 1.0
+  },
+  {
+   "name": "RandomForest",
+   "roc_auc": 0.9083,
+   "roc_auc_ci95": [
+    0.8609,
+    0.949
+   ],
+   "pr_auc": 0.8151,
+   "patient_auc": 1.0
+  },
+  {
+   "name": "Quantum_8q",
+   "roc_auc": 0.8756,
+   "roc_auc_ci95": [
+    0.819,
+    0.9266
+   ],
+   "pr_auc": 0.769,
+   "patient_auc": 1.0
+  },
+  {
+   "name": "Hybrid (SVM_RBF + quantum)",
+   "roc_auc": 0.8985,
+   "roc_auc_ci95": [
+    0.8446,
+    0.9444
+   ],
+   "pr_auc": 0.7997,
+   "patient_auc": 1.0
+  }
+ ],
+ "quantum_advantage_test": {
+  "quantum vs best classical": {
+   "mean_diff": -0.0385,
+   "ci95": [
+    -0.0702,
+    -0.0093
+   ],
+   "p_value": 0.01,
+   "significant": true,
+   "classical_model": "SVM_RBF"
+  },
+  "hybrid vs best classical": {
+   "mean_diff": -0.0159,
+   "ci95": [
+    -0.0337,
+    -0.0003
+   ],
+   "p_value": 0.047,
+   "significant": true,
+   "classical_model": "SVM_RBF"
+  }
+ },
+ "quantum_train_seconds": 125.4,
+ "reference_points": {
+  "whole_image_model_on_LIDC": 0.4566,
+  "roi_cnn": 0.6797,
+  "size_only": 0.8584
+ }
+}

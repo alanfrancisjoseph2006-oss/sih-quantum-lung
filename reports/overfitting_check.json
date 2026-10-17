@@ -1,0 +1,53 @@
+{
+ "question": "Is there still overfitting?",
+ "n_rois": 922,
+ "n_patients": 50,
+ "gaps": {
+  "SVM-RBF (deployed candidate)": {
+   "train_auc": 0.9486,
+   "heldout_auc": 0.8617,
+   "gap": 0.0868,
+   "verdict": "mild overfitting"
+  },
+  "Logistic regression": {
+   "train_auc": 0.9,
+   "heldout_auc": 0.8739,
+   "gap": 0.0261,
+   "verdict": "well generalised"
+  },
+  "SVM-RBF, high C=100 (deliberately overfit)": {
+   "train_auc": 0.9809,
+   "heldout_auc": 0.8136,
+   "gap": 0.1673,
+   "verdict": "moderate overfitting"
+  }
+ },
+ "learning_curve": [
+  {
+   "patients": 15,
+   "heldout_auc": 0.8244
+  },
+  {
+   "patients": 25,
+   "heldout_auc": 0.7923
+  },
+  {
+   "patients": 35,
+   "heldout_auc": 0.8217
+  },
+  {
+   "patients": 42,
+   "heldout_auc": 0.8429
+  },
+  {
+   "patients": 50,
+   "heldout_auc": 0.8742
+  }
+ ],
+ "learning_curve_reading": "The curve is still rising: more annotated patients would likely improve performance further.",
+ "answer": {
+  "roi_feature_model": "train 0.949 vs held-out 0.862, gap +0.087 - mild overfitting",
+  "caveat": "This is cross-PATIENT within LIDC. It says nothing about cross-DATASET generalisation, which has never been tested for the ROI model because IQ-OTH carries no nodule annotations.",
+  "deployed_platform_model": "UNCHANGED. The clinical platform still serves the whole-image EfficientNet-B3 -> Quantum_4q model, which remains at chance externally (AUC 0.488, D26). The ROI work is a research result, not a deployment."
+ }
+}

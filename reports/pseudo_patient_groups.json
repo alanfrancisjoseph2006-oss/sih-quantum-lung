@@ -1,0 +1,7687 @@
+{
+ "Malignant case (2).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (3).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (4).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (5).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (59).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (6).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (60).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (61).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (62).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (63).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (64).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (65).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (66).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (67).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (68).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (69).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (7).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (70).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (71).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (72).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (73).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (74).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (75).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (76).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (77).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Malignant case (78).jpg": {
+  "group_id": 0,
+  "group_size": 26,
+  "group_label_mix": {
+   "malignant": 26
+  }
+ },
+ "Normal case (257).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (258).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (259).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (260).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (261).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (262).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (263).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (264).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (265).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (266).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (267).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (268).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (270).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (271).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (272).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (273).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (274).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (275).jpg": {
+  "group_id": 1,
+  "group_size": 18,
+  "group_label_mix": {
+   "normal": 18
+  }
+ },
+ "Normal case (140).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (141).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (142).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (143).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (144).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (145).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (146).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (147).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (148).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (149).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (150).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (151).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (152).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (415).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (416).jpg": {
+  "group_id": 2,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (358).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (359).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (360).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (361).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (362).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (363).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (364).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (365).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (366).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (367).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (368).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (369).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (406).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (407).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (408).jpg": {
+  "group_id": 3,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (371).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (372).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (373).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (374).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (375).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (376).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (377).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (378).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (379).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (380).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (381).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (382).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (383).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (384).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Normal case (409).jpg": {
+  "group_id": 4,
+  "group_size": 15,
+  "group_label_mix": {
+   "normal": 15
+  }
+ },
+ "Malignant case (100).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (101).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (102).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (103).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (104).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (105).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (92).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (93).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (94).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (95).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (96).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (97).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (98).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Malignant case (99).jpg": {
+  "group_id": 5,
+  "group_size": 14,
+  "group_label_mix": {
+   "malignant": 14
+  }
+ },
+ "Normal case (238).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (239).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (240).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (241).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (245).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (246).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (247).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (248).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (249).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (250).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (251).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (252).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Normal case (253).jpg": {
+  "group_id": 6,
+  "group_size": 13,
+  "group_label_mix": {
+   "normal": 13
+  }
+ },
+ "Malignant case (404).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (405).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (406).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (407).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (408).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (409).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (410).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (411).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (412).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (413).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (414).jpg": {
+  "group_id": 7,
+  "group_size": 11,
+  "group_label_mix": {
+   "malignant": 11
+  }
+ },
+ "Malignant case (314).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (315).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (316).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (317).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (318).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (319).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (320).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (321).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (322).jpg": {
+  "group_id": 8,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (367).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (368).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (369).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (370).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (371).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (372).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (373).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (374).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Malignant case (375).jpg": {
+  "group_id": 9,
+  "group_size": 9,
+  "group_label_mix": {
+   "malignant": 9
+  }
+ },
+ "Normal case (328).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (329).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (330).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (331).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (332).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (333).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (334).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (335).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Normal case (411).jpg": {
+  "group_id": 10,
+  "group_size": 9,
+  "group_label_mix": {
+   "normal": 9
+  }
+ },
+ "Malignant case (269).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (270).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (271).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (272).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (273).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (274).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (286).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Malignant case (287).jpg": {
+  "group_id": 11,
+  "group_size": 8,
+  "group_label_mix": {
+   "malignant": 8
+  }
+ },
+ "Normal case (14).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (15).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (16).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (17).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (18).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (19).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (20).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (413).jpg": {
+  "group_id": 12,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (231).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (232).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (233).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (234).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (235).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (236).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (237).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Normal case (244).jpg": {
+  "group_id": 13,
+  "group_size": 8,
+  "group_label_mix": {
+   "normal": 8
+  }
+ },
+ "Malignant case (300).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (301).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (302).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (303).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (304).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (305).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (306).jpg": {
+  "group_id": 14,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (307).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (308).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (309).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (310).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (311).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (312).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Malignant case (313).jpg": {
+  "group_id": 15,
+  "group_size": 7,
+  "group_label_mix": {
+   "malignant": 7
+  }
+ },
+ "Normal case (10).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (11).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (12).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (13).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (412).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (8).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (9).jpg": {
+  "group_id": 16,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (207).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (208).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (209).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (213).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (214).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (215).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (216).jpg": {
+  "group_id": 17,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (283).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (284).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (285).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (286).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (287).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (295).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Normal case (296).jpg": {
+  "group_id": 18,
+  "group_size": 7,
+  "group_label_mix": {
+   "normal": 7
+  }
+ },
+ "Malignant case (15).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (152).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (153).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (154).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (155).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (8).jpg": {
+  "group_id": 19,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (161).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (162).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (163).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (164).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (165).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (166).jpg": {
+  "group_id": 20,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (17).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (18).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (548).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (549).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (550).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (552).jpg": {
+  "group_id": 21,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (294).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (295).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (296).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (297).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (298).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (299).jpg": {
+  "group_id": 22,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (38).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (39).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (40).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (41).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (42).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (43).jpg": {
+  "group_id": 23,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (396).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (397).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (398).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (399).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (400).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Malignant case (401).jpg": {
+  "group_id": 24,
+  "group_size": 6,
+  "group_label_mix": {
+   "malignant": 6
+  }
+ },
+ "Normal case (159).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (160).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (161).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (162).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (163).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (164).jpg": {
+  "group_id": 25,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (203).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (204).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (205).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (217).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (218).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (219).jpg": {
+  "group_id": 26,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (50).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (51).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (52).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (53).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (54).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Normal case (55).jpg": {
+  "group_id": 27,
+  "group_size": 6,
+  "group_label_mix": {
+   "normal": 6
+  }
+ },
+ "Bengin case (70).jpg": {
+  "group_id": 28,
+  "group_size": 5,
+  "group_label_mix": {
+   "benign": 5
+  }
+ },
+ "Bengin case (71).jpg": {
+  "group_id": 28,
+  "group_size": 5,
+  "group_label_mix": {
+   "benign": 5
+  }
+ },
+ "Bengin case (72).jpg": {
+  "group_id": 28,
+  "group_size": 5,
+  "group_label_mix": {
+   "benign": 5
+  }
+ },
+ "Bengin case (81).jpg": {
+  "group_id": 28,
+  "group_size": 5,
+  "group_label_mix": {
+   "benign": 5
+  }
+ },
+ "Bengin case (82).jpg": {
+  "group_id": 28,
+  "group_size": 5,
+  "group_label_mix": {
+   "benign": 5
+  }
+ },
+ "Malignant case (124).jpg": {
+  "group_id": 29,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (125).jpg": {
+  "group_id": 29,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (126).jpg": {
+  "group_id": 29,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (127).jpg": {
+  "group_id": 29,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (128).jpg": {
+  "group_id": 29,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (288).jpg": {
+  "group_id": 30,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (289).jpg": {
+  "group_id": 30,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (290).jpg": {
+  "group_id": 30,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (291).jpg": {
+  "group_id": 30,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (292).jpg": {
+  "group_id": 30,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (427).jpg": {
+  "group_id": 31,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (428).jpg": {
+  "group_id": 31,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (429).jpg": {
+  "group_id": 31,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (430).jpg": {
+  "group_id": 31,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (431).jpg": {
+  "group_id": 31,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (556).jpg": {
+  "group_id": 32,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (557).jpg": {
+  "group_id": 32,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (558).jpg": {
+  "group_id": 32,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (559).jpg": {
+  "group_id": 32,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Malignant case (560).jpg": {
+  "group_id": 32,
+  "group_size": 5,
+  "group_label_mix": {
+   "malignant": 5
+  }
+ },
+ "Normal case (135).jpg": {
+  "group_id": 33,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (136).jpg": {
+  "group_id": 33,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (137).jpg": {
+  "group_id": 33,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (138).jpg": {
+  "group_id": 33,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (139).jpg": {
+  "group_id": 33,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (307).jpg": {
+  "group_id": 34,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (308).jpg": {
+  "group_id": 34,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (309).jpg": {
+  "group_id": 34,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (310).jpg": {
+  "group_id": 34,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (311).jpg": {
+  "group_id": 34,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (386).jpg": {
+  "group_id": 35,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (387).jpg": {
+  "group_id": 35,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (388).jpg": {
+  "group_id": 35,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (389).jpg": {
+  "group_id": 35,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Normal case (390).jpg": {
+  "group_id": 35,
+  "group_size": 5,
+  "group_label_mix": {
+   "normal": 5
+  }
+ },
+ "Malignant case (157).jpg": {
+  "group_id": 36,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (158).jpg": {
+  "group_id": 36,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (159).jpg": {
+  "group_id": 36,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (160).jpg": {
+  "group_id": 36,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (176).jpg": {
+  "group_id": 37,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (177).jpg": {
+  "group_id": 37,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (178).jpg": {
+  "group_id": 37,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (179).jpg": {
+  "group_id": 37,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (376).jpg": {
+  "group_id": 38,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (377).jpg": {
+  "group_id": 38,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (378).jpg": {
+  "group_id": 38,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (379).jpg": {
+  "group_id": 38,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (423).jpg": {
+  "group_id": 39,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (424).jpg": {
+  "group_id": 39,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (425).jpg": {
+  "group_id": 39,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (426).jpg": {
+  "group_id": 39,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (433).jpg": {
+  "group_id": 40,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (434).jpg": {
+  "group_id": 40,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (435).jpg": {
+  "group_id": 40,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (436).jpg": {
+  "group_id": 40,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (483).jpg": {
+  "group_id": 41,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (484).jpg": {
+  "group_id": 41,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (485).jpg": {
+  "group_id": 41,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (486).jpg": {
+  "group_id": 41,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (487).jpg": {
+  "group_id": 42,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (488).jpg": {
+  "group_id": 42,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (489).jpg": {
+  "group_id": 42,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Malignant case (490).jpg": {
+  "group_id": 42,
+  "group_size": 4,
+  "group_label_mix": {
+   "malignant": 4
+  }
+ },
+ "Normal case (116).jpg": {
+  "group_id": 43,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (117).jpg": {
+  "group_id": 43,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (118).jpg": {
+  "group_id": 43,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (119).jpg": {
+  "group_id": 43,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (153).jpg": {
+  "group_id": 44,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (154).jpg": {
+  "group_id": 44,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (155).jpg": {
+  "group_id": 44,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (156).jpg": {
+  "group_id": 44,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (21).jpg": {
+  "group_id": 45,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (22).jpg": {
+  "group_id": 45,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (23).jpg": {
+  "group_id": 45,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (24).jpg": {
+  "group_id": 45,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (301).jpg": {
+  "group_id": 46,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (302).jpg": {
+  "group_id": 46,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (303).jpg": {
+  "group_id": 46,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (304).jpg": {
+  "group_id": 46,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (324).jpg": {
+  "group_id": 47,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (325).jpg": {
+  "group_id": 47,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (326).jpg": {
+  "group_id": 47,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (327).jpg": {
+  "group_id": 47,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (340).jpg": {
+  "group_id": 48,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (341).jpg": {
+  "group_id": 48,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (342).jpg": {
+  "group_id": 48,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (410).jpg": {
+  "group_id": 48,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (402).jpg": {
+  "group_id": 49,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (403).jpg": {
+  "group_id": 49,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (404).jpg": {
+  "group_id": 49,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (405).jpg": {
+  "group_id": 49,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (92).jpg": {
+  "group_id": 50,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (93).jpg": {
+  "group_id": 50,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (94).jpg": {
+  "group_id": 50,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Normal case (95).jpg": {
+  "group_id": 50,
+  "group_size": 4,
+  "group_label_mix": {
+   "normal": 4
+  }
+ },
+ "Bengin case (11).jpg": {
+  "group_id": 51,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (12).jpg": {
+  "group_id": 51,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (13).jpg": {
+  "group_id": 51,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (33).jpg": {
+  "group_id": 52,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Normal case (82).jpg": {
+  "group_id": 52,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Normal case (83).jpg": {
+  "group_id": 52,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Bengin case (34).jpg": {
+  "group_id": 53,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Normal case (86).jpg": {
+  "group_id": 53,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Normal case (87).jpg": {
+  "group_id": 53,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 1,
+   "normal": 2
+  }
+ },
+ "Bengin case (66).jpg": {
+  "group_id": 54,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (74).jpg": {
+  "group_id": 54,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (75).jpg": {
+  "group_id": 54,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (69).jpg": {
+  "group_id": 55,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (78).jpg": {
+  "group_id": 55,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (79).jpg": {
+  "group_id": 55,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (83).jpg": {
+  "group_id": 56,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (84).jpg": {
+  "group_id": 56,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Bengin case (85).jpg": {
+  "group_id": 56,
+  "group_size": 3,
+  "group_label_mix": {
+   "benign": 3
+  }
+ },
+ "Malignant case (117).jpg": {
+  "group_id": 57,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (118).jpg": {
+  "group_id": 57,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (119).jpg": {
+  "group_id": 57,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (208).jpg": {
+  "group_id": 58,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (209).jpg": {
+  "group_id": 58,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (210).jpg": {
+  "group_id": 58,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (225).jpg": {
+  "group_id": 59,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (226).jpg": {
+  "group_id": 59,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (227).jpg": {
+  "group_id": 59,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (338).jpg": {
+  "group_id": 60,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (339).jpg": {
+  "group_id": 60,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (340).jpg": {
+  "group_id": 60,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (349).jpg": {
+  "group_id": 61,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (350).jpg": {
+  "group_id": 61,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (351).jpg": {
+  "group_id": 61,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (360).jpg": {
+  "group_id": 62,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (361).jpg": {
+  "group_id": 62,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (362).jpg": {
+  "group_id": 62,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (389).jpg": {
+  "group_id": 63,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (390).jpg": {
+  "group_id": 63,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (391).jpg": {
+  "group_id": 63,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (44).jpg": {
+  "group_id": 64,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (45).jpg": {
+  "group_id": 64,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (46).jpg": {
+  "group_id": 64,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (491).jpg": {
+  "group_id": 65,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (492).jpg": {
+  "group_id": 65,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (493).jpg": {
+  "group_id": 65,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (499).jpg": {
+  "group_id": 66,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (500).jpg": {
+  "group_id": 66,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (501).jpg": {
+  "group_id": 66,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (539).jpg": {
+  "group_id": 67,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (540).jpg": {
+  "group_id": 67,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (541).jpg": {
+  "group_id": 67,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (544).jpg": {
+  "group_id": 68,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (545).jpg": {
+  "group_id": 68,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (546).jpg": {
+  "group_id": 68,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (55).jpg": {
+  "group_id": 69,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (56).jpg": {
+  "group_id": 69,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (57).jpg": {
+  "group_id": 69,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (553).jpg": {
+  "group_id": 70,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (554).jpg": {
+  "group_id": 70,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (555).jpg": {
+  "group_id": 70,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (89).jpg": {
+  "group_id": 71,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (90).jpg": {
+  "group_id": 71,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Malignant case (91).jpg": {
+  "group_id": 71,
+  "group_size": 3,
+  "group_label_mix": {
+   "malignant": 3
+  }
+ },
+ "Normal case (108).jpg": {
+  "group_id": 72,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (109).jpg": {
+  "group_id": 72,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (110).jpg": {
+  "group_id": 72,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (170).jpg": {
+  "group_id": 73,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (171).jpg": {
+  "group_id": 73,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (172).jpg": {
+  "group_id": 73,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (175).jpg": {
+  "group_id": 74,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (176).jpg": {
+  "group_id": 74,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (177).jpg": {
+  "group_id": 74,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (179).jpg": {
+  "group_id": 75,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (180).jpg": {
+  "group_id": 75,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (181).jpg": {
+  "group_id": 75,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (200).jpg": {
+  "group_id": 76,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (201).jpg": {
+  "group_id": 76,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (210).jpg": {
+  "group_id": 76,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (224).jpg": {
+  "group_id": 77,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (225).jpg": {
+  "group_id": 77,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (226).jpg": {
+  "group_id": 77,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (280).jpg": {
+  "group_id": 78,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (281).jpg": {
+  "group_id": 78,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (294).jpg": {
+  "group_id": 78,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (317).jpg": {
+  "group_id": 79,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (322).jpg": {
+  "group_id": 79,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (323).jpg": {
+  "group_id": 79,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (319).jpg": {
+  "group_id": 80,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (320).jpg": {
+  "group_id": 80,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (321).jpg": {
+  "group_id": 80,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (34).jpg": {
+  "group_id": 81,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (35).jpg": {
+  "group_id": 81,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (36).jpg": {
+  "group_id": 81,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (39).jpg": {
+  "group_id": 82,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (40).jpg": {
+  "group_id": 82,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (41).jpg": {
+  "group_id": 82,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (392).jpg": {
+  "group_id": 83,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (393).jpg": {
+  "group_id": 83,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (394).jpg": {
+  "group_id": 83,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (75).jpg": {
+  "group_id": 84,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (76).jpg": {
+  "group_id": 84,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Normal case (77).jpg": {
+  "group_id": 84,
+  "group_size": 3,
+  "group_label_mix": {
+   "normal": 3
+  }
+ },
+ "Bengin case (10).jpg": {
+  "group_id": 85,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (9).jpg": {
+  "group_id": 85,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (100).jpg": {
+  "group_id": 86,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (99).jpg": {
+  "group_id": 86,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (104).jpg": {
+  "group_id": 87,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (105).jpg": {
+  "group_id": 87,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (106).jpg": {
+  "group_id": 88,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (107).jpg": {
+  "group_id": 88,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (112).jpg": {
+  "group_id": 89,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (113).jpg": {
+  "group_id": 89,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (114).jpg": {
+  "group_id": 90,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (115).jpg": {
+  "group_id": 90,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (15).jpg": {
+  "group_id": 91,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (16).jpg": {
+  "group_id": 91,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (17).jpg": {
+  "group_id": 92,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (18).jpg": {
+  "group_id": 92,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (22).jpg": {
+  "group_id": 93,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (23).jpg": {
+  "group_id": 93,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (26).jpg": {
+  "group_id": 94,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (27).jpg": {
+  "group_id": 94,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (37).jpg": {
+  "group_id": 95,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (38).jpg": {
+  "group_id": 95,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (40).jpg": {
+  "group_id": 96,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (41).jpg": {
+  "group_id": 96,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (43).jpg": {
+  "group_id": 97,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (44).jpg": {
+  "group_id": 97,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (50).jpg": {
+  "group_id": 98,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (51).jpg": {
+  "group_id": 98,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (62).jpg": {
+  "group_id": 99,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (63).jpg": {
+  "group_id": 99,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (64).jpg": {
+  "group_id": 100,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (65).jpg": {
+  "group_id": 100,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (7).jpg": {
+  "group_id": 101,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (8).jpg": {
+  "group_id": 101,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (90).jpg": {
+  "group_id": 102,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (91).jpg": {
+  "group_id": 102,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (94).jpg": {
+  "group_id": 103,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (95).jpg": {
+  "group_id": 103,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (96).jpg": {
+  "group_id": 104,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Bengin case (97).jpg": {
+  "group_id": 104,
+  "group_size": 2,
+  "group_label_mix": {
+   "benign": 2
+  }
+ },
+ "Malignant case (1).jpg": {
+  "group_id": 105,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (561).jpg": {
+  "group_id": 105,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (10).jpg": {
+  "group_id": 106,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (138).jpg": {
+  "group_id": 106,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (106).jpg": {
+  "group_id": 107,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (107).jpg": {
+  "group_id": 107,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (11).jpg": {
+  "group_id": 108,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (139).jpg": {
+  "group_id": 108,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (115).jpg": {
+  "group_id": 109,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (116).jpg": {
+  "group_id": 109,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (12).jpg": {
+  "group_id": 110,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (140).jpg": {
+  "group_id": 110,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (122).jpg": {
+  "group_id": 111,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (123).jpg": {
+  "group_id": 111,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (13).jpg": {
+  "group_id": 112,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (141).jpg": {
+  "group_id": 112,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (132).jpg": {
+  "group_id": 113,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (133).jpg": {
+  "group_id": 113,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (134).jpg": {
+  "group_id": 114,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (135).jpg": {
+  "group_id": 114,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (14).jpg": {
+  "group_id": 115,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (148).jpg": {
+  "group_id": 115,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (143).jpg": {
+  "group_id": 116,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (144).jpg": {
+  "group_id": 116,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (156).jpg": {
+  "group_id": 117,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (9).jpg": {
+  "group_id": 117,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (167).jpg": {
+  "group_id": 118,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (168).jpg": {
+  "group_id": 118,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (172).jpg": {
+  "group_id": 119,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (173).jpg": {
+  "group_id": 119,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (174).jpg": {
+  "group_id": 120,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (175).jpg": {
+  "group_id": 120,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (192).jpg": {
+  "group_id": 121,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (193).jpg": {
+  "group_id": 121,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (216).jpg": {
+  "group_id": 122,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (217).jpg": {
+  "group_id": 122,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (223).jpg": {
+  "group_id": 123,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (224).jpg": {
+  "group_id": 123,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (257).jpg": {
+  "group_id": 124,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (258).jpg": {
+  "group_id": 124,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (259).jpg": {
+  "group_id": 125,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (260).jpg": {
+  "group_id": 125,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (264).jpg": {
+  "group_id": 126,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (265).jpg": {
+  "group_id": 126,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (267).jpg": {
+  "group_id": 127,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (268).jpg": {
+  "group_id": 127,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (277).jpg": {
+  "group_id": 128,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (278).jpg": {
+  "group_id": 128,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (281).jpg": {
+  "group_id": 129,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (282).jpg": {
+  "group_id": 129,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (344).jpg": {
+  "group_id": 130,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (345).jpg": {
+  "group_id": 130,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (363).jpg": {
+  "group_id": 131,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (364).jpg": {
+  "group_id": 131,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (392).jpg": {
+  "group_id": 132,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (393).jpg": {
+  "group_id": 132,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (394).jpg": {
+  "group_id": 133,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (395).jpg": {
+  "group_id": 133,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (420).jpg": {
+  "group_id": 134,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (421).jpg": {
+  "group_id": 134,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (451).jpg": {
+  "group_id": 135,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (452).jpg": {
+  "group_id": 135,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (453).jpg": {
+  "group_id": 136,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (454).jpg": {
+  "group_id": 136,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (462).jpg": {
+  "group_id": 137,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (463).jpg": {
+  "group_id": 137,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (466).jpg": {
+  "group_id": 138,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (467).jpg": {
+  "group_id": 138,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (471).jpg": {
+  "group_id": 139,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (472).jpg": {
+  "group_id": 139,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (476).jpg": {
+  "group_id": 140,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (477).jpg": {
+  "group_id": 140,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (479).jpg": {
+  "group_id": 141,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (480).jpg": {
+  "group_id": 141,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (497).jpg": {
+  "group_id": 142,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (498).jpg": {
+  "group_id": 142,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (504).jpg": {
+  "group_id": 143,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (505).jpg": {
+  "group_id": 143,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (519).jpg": {
+  "group_id": 144,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (520).jpg": {
+  "group_id": 144,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (53).jpg": {
+  "group_id": 145,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (54).jpg": {
+  "group_id": 145,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (532).jpg": {
+  "group_id": 146,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (533).jpg": {
+  "group_id": 146,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (80).jpg": {
+  "group_id": 147,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Malignant case (81).jpg": {
+  "group_id": 147,
+  "group_size": 2,
+  "group_label_mix": {
+   "malignant": 2
+  }
+ },
+ "Normal case (100).jpg": {
+  "group_id": 148,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (99).jpg": {
+  "group_id": 148,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (101).jpg": {
+  "group_id": 149,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (102).jpg": {
+  "group_id": 149,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (120).jpg": {
+  "group_id": 150,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (121).jpg": {
+  "group_id": 150,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (127).jpg": {
+  "group_id": 151,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (128).jpg": {
+  "group_id": 151,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (129).jpg": {
+  "group_id": 152,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (130).jpg": {
+  "group_id": 152,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (134).jpg": {
+  "group_id": 153,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (414).jpg": {
+  "group_id": 153,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (190).jpg": {
+  "group_id": 154,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (191).jpg": {
+  "group_id": 154,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (195).jpg": {
+  "group_id": 155,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (196).jpg": {
+  "group_id": 155,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (197).jpg": {
+  "group_id": 156,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (198).jpg": {
+  "group_id": 156,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (206).jpg": {
+  "group_id": 157,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (211).jpg": {
+  "group_id": 157,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (220).jpg": {
+  "group_id": 158,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (221).jpg": {
+  "group_id": 158,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (255).jpg": {
+  "group_id": 159,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (256).jpg": {
+  "group_id": 159,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (269).jpg": {
+  "group_id": 160,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (276).jpg": {
+  "group_id": 160,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (27).jpg": {
+  "group_id": 161,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (28).jpg": {
+  "group_id": 161,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (277).jpg": {
+  "group_id": 162,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (278).jpg": {
+  "group_id": 162,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (289).jpg": {
+  "group_id": 163,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (290).jpg": {
+  "group_id": 163,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (297).jpg": {
+  "group_id": 164,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (298).jpg": {
+  "group_id": 164,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (299).jpg": {
+  "group_id": 165,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (300).jpg": {
+  "group_id": 165,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (305).jpg": {
+  "group_id": 166,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (306).jpg": {
+  "group_id": 166,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (31).jpg": {
+  "group_id": 167,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (32).jpg": {
+  "group_id": 167,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (33).jpg": {
+  "group_id": 168,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (38).jpg": {
+  "group_id": 168,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (337).jpg": {
+  "group_id": 169,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (338).jpg": {
+  "group_id": 169,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (347).jpg": {
+  "group_id": 170,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (350).jpg": {
+  "group_id": 170,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (348).jpg": {
+  "group_id": 171,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (354).jpg": {
+  "group_id": 171,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (356).jpg": {
+  "group_id": 172,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (357).jpg": {
+  "group_id": 172,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (395).jpg": {
+  "group_id": 173,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (396).jpg": {
+  "group_id": 173,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (4).jpg": {
+  "group_id": 174,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (5).jpg": {
+  "group_id": 174,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (42).jpg": {
+  "group_id": 175,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (43).jpg": {
+  "group_id": 175,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (44).jpg": {
+  "group_id": 176,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (45).jpg": {
+  "group_id": 176,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (48).jpg": {
+  "group_id": 177,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (49).jpg": {
+  "group_id": 177,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (68).jpg": {
+  "group_id": 178,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (69).jpg": {
+  "group_id": 178,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (70).jpg": {
+  "group_id": 179,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (71).jpg": {
+  "group_id": 179,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (84).jpg": {
+  "group_id": 180,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Normal case (85).jpg": {
+  "group_id": 180,
+  "group_size": 2,
+  "group_label_mix": {
+   "normal": 2
+  }
+ },
+ "Bengin case (1).jpg": {
+  "group_id": 181,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (101).jpg": {
+  "group_id": 182,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (102).jpg": {
+  "group_id": 183,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (103).jpg": {
+  "group_id": 184,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (108).jpg": {
+  "group_id": 185,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (109).jpg": {
+  "group_id": 186,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (110).jpg": {
+  "group_id": 187,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (111).jpg": {
+  "group_id": 188,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (116).jpg": {
+  "group_id": 189,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (117).jpg": {
+  "group_id": 190,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (118).jpg": {
+  "group_id": 191,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (119).jpg": {
+  "group_id": 192,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (120).jpg": {
+  "group_id": 193,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (14).jpg": {
+  "group_id": 194,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (19).jpg": {
+  "group_id": 195,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (2).jpg": {
+  "group_id": 196,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (20).jpg": {
+  "group_id": 197,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (21).jpg": {
+  "group_id": 198,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (24).jpg": {
+  "group_id": 199,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (25).jpg": {
+  "group_id": 200,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (28).jpg": {
+  "group_id": 201,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (29).jpg": {
+  "group_id": 202,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (3).jpg": {
+  "group_id": 203,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (30).jpg": {
+  "group_id": 204,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (31).jpg": {
+  "group_id": 205,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (32).jpg": {
+  "group_id": 206,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (35).jpg": {
+  "group_id": 207,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (36).jpg": {
+  "group_id": 208,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (39).jpg": {
+  "group_id": 209,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (4).jpg": {
+  "group_id": 210,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (42).jpg": {
+  "group_id": 211,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (45).jpg": {
+  "group_id": 212,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (46).jpg": {
+  "group_id": 213,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (47).jpg": {
+  "group_id": 214,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (48).jpg": {
+  "group_id": 215,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (49).jpg": {
+  "group_id": 216,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (5).jpg": {
+  "group_id": 217,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (52).jpg": {
+  "group_id": 218,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (53).jpg": {
+  "group_id": 219,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (54).jpg": {
+  "group_id": 220,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (55).jpg": {
+  "group_id": 221,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (56).jpg": {
+  "group_id": 222,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (57).jpg": {
+  "group_id": 223,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (58).jpg": {
+  "group_id": 224,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (59).jpg": {
+  "group_id": 225,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (6).jpg": {
+  "group_id": 226,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (60).jpg": {
+  "group_id": 227,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (61).jpg": {
+  "group_id": 228,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (67).jpg": {
+  "group_id": 229,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (68).jpg": {
+  "group_id": 230,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (73).jpg": {
+  "group_id": 231,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (76).jpg": {
+  "group_id": 232,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (77).jpg": {
+  "group_id": 233,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (80).jpg": {
+  "group_id": 234,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (86).jpg": {
+  "group_id": 235,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (87).jpg": {
+  "group_id": 236,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (88).jpg": {
+  "group_id": 237,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (89).jpg": {
+  "group_id": 238,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (92).jpg": {
+  "group_id": 239,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (93).jpg": {
+  "group_id": 240,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Bengin case (98).jpg": {
+  "group_id": 241,
+  "group_size": 1,
+  "group_label_mix": {
+   "benign": 1
+  }
+ },
+ "Malignant case (108).jpg": {
+  "group_id": 242,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (109).jpg": {
+  "group_id": 243,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (110).jpg": {
+  "group_id": 244,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (111).jpg": {
+  "group_id": 245,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (112).jpg": {
+  "group_id": 246,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (113).jpg": {
+  "group_id": 247,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (114).jpg": {
+  "group_id": 248,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (120).jpg": {
+  "group_id": 249,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (121).jpg": {
+  "group_id": 250,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (129).jpg": {
+  "group_id": 251,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (130).jpg": {
+  "group_id": 252,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (131).jpg": {
+  "group_id": 253,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (136).jpg": {
+  "group_id": 254,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (137).jpg": {
+  "group_id": 255,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (142).jpg": {
+  "group_id": 256,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (145).jpg": {
+  "group_id": 257,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (146).jpg": {
+  "group_id": 258,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (147).jpg": {
+  "group_id": 259,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (149).jpg": {
+  "group_id": 260,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (150).jpg": {
+  "group_id": 261,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (151).jpg": {
+  "group_id": 262,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (16).jpg": {
+  "group_id": 263,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (169).jpg": {
+  "group_id": 264,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (170).jpg": {
+  "group_id": 265,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (171).jpg": {
+  "group_id": 266,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (180).jpg": {
+  "group_id": 267,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (181).jpg": {
+  "group_id": 268,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (182).jpg": {
+  "group_id": 269,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (183).jpg": {
+  "group_id": 270,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (184).jpg": {
+  "group_id": 271,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (185).jpg": {
+  "group_id": 272,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (186).jpg": {
+  "group_id": 273,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (187).jpg": {
+  "group_id": 274,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (188).jpg": {
+  "group_id": 275,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (189).jpg": {
+  "group_id": 276,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (19).jpg": {
+  "group_id": 277,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (190).jpg": {
+  "group_id": 278,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (191).jpg": {
+  "group_id": 279,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (194).jpg": {
+  "group_id": 280,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (195).jpg": {
+  "group_id": 281,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (196).jpg": {
+  "group_id": 282,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (197).jpg": {
+  "group_id": 283,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (198).jpg": {
+  "group_id": 284,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (199).jpg": {
+  "group_id": 285,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (20).jpg": {
+  "group_id": 286,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (200).jpg": {
+  "group_id": 287,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (201).jpg": {
+  "group_id": 288,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (202).jpg": {
+  "group_id": 289,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (203).jpg": {
+  "group_id": 290,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (204).jpg": {
+  "group_id": 291,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (205).jpg": {
+  "group_id": 292,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (206).jpg": {
+  "group_id": 293,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (207).jpg": {
+  "group_id": 294,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (21).jpg": {
+  "group_id": 295,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (211).jpg": {
+  "group_id": 296,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (212).jpg": {
+  "group_id": 297,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (213).jpg": {
+  "group_id": 298,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (214).jpg": {
+  "group_id": 299,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (215).jpg": {
+  "group_id": 300,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (218).jpg": {
+  "group_id": 301,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (219).jpg": {
+  "group_id": 302,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (22).jpg": {
+  "group_id": 303,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (220).jpg": {
+  "group_id": 304,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (221).jpg": {
+  "group_id": 305,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (222).jpg": {
+  "group_id": 306,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (228).jpg": {
+  "group_id": 307,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (229).jpg": {
+  "group_id": 308,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (23).jpg": {
+  "group_id": 309,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (230).jpg": {
+  "group_id": 310,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (231).jpg": {
+  "group_id": 311,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (232).jpg": {
+  "group_id": 312,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (233).jpg": {
+  "group_id": 313,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (234).jpg": {
+  "group_id": 314,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (235).jpg": {
+  "group_id": 315,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (236).jpg": {
+  "group_id": 316,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (237).jpg": {
+  "group_id": 317,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (238).jpg": {
+  "group_id": 318,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (239).jpg": {
+  "group_id": 319,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (24).jpg": {
+  "group_id": 320,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (240).jpg": {
+  "group_id": 321,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (241).jpg": {
+  "group_id": 322,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (242).jpg": {
+  "group_id": 323,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (243).jpg": {
+  "group_id": 324,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (244).jpg": {
+  "group_id": 325,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (245).jpg": {
+  "group_id": 326,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (246).jpg": {
+  "group_id": 327,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (247).jpg": {
+  "group_id": 328,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (248).jpg": {
+  "group_id": 329,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (249).jpg": {
+  "group_id": 330,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (25).jpg": {
+  "group_id": 331,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (250).jpg": {
+  "group_id": 332,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (251).jpg": {
+  "group_id": 333,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (252).jpg": {
+  "group_id": 334,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (253).jpg": {
+  "group_id": 335,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (254).jpg": {
+  "group_id": 336,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (255).jpg": {
+  "group_id": 337,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (256).jpg": {
+  "group_id": 338,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (26).jpg": {
+  "group_id": 339,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (261).jpg": {
+  "group_id": 340,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (262).jpg": {
+  "group_id": 341,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (263).jpg": {
+  "group_id": 342,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (266).jpg": {
+  "group_id": 343,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (27).jpg": {
+  "group_id": 344,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (275).jpg": {
+  "group_id": 345,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (276).jpg": {
+  "group_id": 346,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (279).jpg": {
+  "group_id": 347,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (28).jpg": {
+  "group_id": 348,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (280).jpg": {
+  "group_id": 349,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (283).jpg": {
+  "group_id": 350,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (284).jpg": {
+  "group_id": 351,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (285).jpg": {
+  "group_id": 352,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (29).jpg": {
+  "group_id": 353,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (293).jpg": {
+  "group_id": 354,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (30).jpg": {
+  "group_id": 355,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (31).jpg": {
+  "group_id": 356,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (32).jpg": {
+  "group_id": 357,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (323).jpg": {
+  "group_id": 358,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (324).jpg": {
+  "group_id": 359,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (325).jpg": {
+  "group_id": 360,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (326).jpg": {
+  "group_id": 361,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (327).jpg": {
+  "group_id": 362,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (328).jpg": {
+  "group_id": 363,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (329).jpg": {
+  "group_id": 364,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (33).jpg": {
+  "group_id": 365,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (330).jpg": {
+  "group_id": 366,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (331).jpg": {
+  "group_id": 367,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (332).jpg": {
+  "group_id": 368,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (333).jpg": {
+  "group_id": 369,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (334).jpg": {
+  "group_id": 370,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (335).jpg": {
+  "group_id": 371,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (336).jpg": {
+  "group_id": 372,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (337).jpg": {
+  "group_id": 373,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (34).jpg": {
+  "group_id": 374,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (341).jpg": {
+  "group_id": 375,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (342).jpg": {
+  "group_id": 376,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (343).jpg": {
+  "group_id": 377,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (346).jpg": {
+  "group_id": 378,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (347).jpg": {
+  "group_id": 379,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (348).jpg": {
+  "group_id": 380,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (35).jpg": {
+  "group_id": 381,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (352).jpg": {
+  "group_id": 382,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (353).jpg": {
+  "group_id": 383,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (354).jpg": {
+  "group_id": 384,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (355).jpg": {
+  "group_id": 385,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (356).jpg": {
+  "group_id": 386,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (357).jpg": {
+  "group_id": 387,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (358).jpg": {
+  "group_id": 388,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (359).jpg": {
+  "group_id": 389,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (36).jpg": {
+  "group_id": 390,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (365).jpg": {
+  "group_id": 391,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (366).jpg": {
+  "group_id": 392,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (37).jpg": {
+  "group_id": 393,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (380).jpg": {
+  "group_id": 394,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (381).jpg": {
+  "group_id": 395,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (382).jpg": {
+  "group_id": 396,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (383).jpg": {
+  "group_id": 397,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (384).jpg": {
+  "group_id": 398,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (385).jpg": {
+  "group_id": 399,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (386).jpg": {
+  "group_id": 400,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (387).jpg": {
+  "group_id": 401,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (388).jpg": {
+  "group_id": 402,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (402).jpg": {
+  "group_id": 403,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (403).jpg": {
+  "group_id": 404,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (415).jpg": {
+  "group_id": 405,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (416).jpg": {
+  "group_id": 406,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (417).jpg": {
+  "group_id": 407,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (418).jpg": {
+  "group_id": 408,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (419).jpg": {
+  "group_id": 409,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (422).jpg": {
+  "group_id": 410,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (432).jpg": {
+  "group_id": 411,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (437).jpg": {
+  "group_id": 412,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (438).jpg": {
+  "group_id": 413,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (439).jpg": {
+  "group_id": 414,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (440).jpg": {
+  "group_id": 415,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (441).jpg": {
+  "group_id": 416,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (442).jpg": {
+  "group_id": 417,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (443).jpg": {
+  "group_id": 418,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (444).jpg": {
+  "group_id": 419,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (445).jpg": {
+  "group_id": 420,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (446).jpg": {
+  "group_id": 421,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (447).jpg": {
+  "group_id": 422,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (448).jpg": {
+  "group_id": 423,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (449).jpg": {
+  "group_id": 424,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (450).jpg": {
+  "group_id": 425,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (455).jpg": {
+  "group_id": 426,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (456).jpg": {
+  "group_id": 427,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (457).jpg": {
+  "group_id": 428,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (458).jpg": {
+  "group_id": 429,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (459).jpg": {
+  "group_id": 430,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (460).jpg": {
+  "group_id": 431,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (461).jpg": {
+  "group_id": 432,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (464).jpg": {
+  "group_id": 433,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (465).jpg": {
+  "group_id": 434,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (468).jpg": {
+  "group_id": 435,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (469).jpg": {
+  "group_id": 436,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (47).jpg": {
+  "group_id": 437,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (470).jpg": {
+  "group_id": 438,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (473).jpg": {
+  "group_id": 439,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (474).jpg": {
+  "group_id": 440,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (475).jpg": {
+  "group_id": 441,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (478).jpg": {
+  "group_id": 442,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (48).jpg": {
+  "group_id": 443,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (481).jpg": {
+  "group_id": 444,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (482).jpg": {
+  "group_id": 445,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (49).jpg": {
+  "group_id": 446,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (494).jpg": {
+  "group_id": 447,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (495).jpg": {
+  "group_id": 448,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (496).jpg": {
+  "group_id": 449,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (50).jpg": {
+  "group_id": 450,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (502).jpg": {
+  "group_id": 451,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (503).jpg": {
+  "group_id": 452,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (506).jpg": {
+  "group_id": 453,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (507).jpg": {
+  "group_id": 454,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (508).jpg": {
+  "group_id": 455,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (509).jpg": {
+  "group_id": 456,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (51).jpg": {
+  "group_id": 457,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (510).jpg": {
+  "group_id": 458,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (511).jpg": {
+  "group_id": 459,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (512).jpg": {
+  "group_id": 460,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (513).jpg": {
+  "group_id": 461,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (514).jpg": {
+  "group_id": 462,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (515).jpg": {
+  "group_id": 463,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (516).jpg": {
+  "group_id": 464,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (517).jpg": {
+  "group_id": 465,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (518).jpg": {
+  "group_id": 466,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (52).jpg": {
+  "group_id": 467,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (521).jpg": {
+  "group_id": 468,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (522).jpg": {
+  "group_id": 469,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (523).jpg": {
+  "group_id": 470,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (524).jpg": {
+  "group_id": 471,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (525).jpg": {
+  "group_id": 472,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (526).jpg": {
+  "group_id": 473,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (527).jpg": {
+  "group_id": 474,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (528).jpg": {
+  "group_id": 475,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (529).jpg": {
+  "group_id": 476,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (530).jpg": {
+  "group_id": 477,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (531).jpg": {
+  "group_id": 478,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (534).jpg": {
+  "group_id": 479,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (535).jpg": {
+  "group_id": 480,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (536).jpg": {
+  "group_id": 481,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (537).jpg": {
+  "group_id": 482,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (538).jpg": {
+  "group_id": 483,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (542).jpg": {
+  "group_id": 484,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (543).jpg": {
+  "group_id": 485,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (547).jpg": {
+  "group_id": 486,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (551).jpg": {
+  "group_id": 487,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (58).jpg": {
+  "group_id": 488,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (79).jpg": {
+  "group_id": 489,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (82).jpg": {
+  "group_id": 490,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (83).jpg": {
+  "group_id": 491,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (84).jpg": {
+  "group_id": 492,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (85).jpg": {
+  "group_id": 493,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (86).jpg": {
+  "group_id": 494,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (87).jpg": {
+  "group_id": 495,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Malignant case (88).jpg": {
+  "group_id": 496,
+  "group_size": 1,
+  "group_label_mix": {
+   "malignant": 1
+  }
+ },
+ "Normal case (1).jpg": {
+  "group_id": 497,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (103).jpg": {
+  "group_id": 498,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (104).jpg": {
+  "group_id": 499,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (105).jpg": {
+  "group_id": 500,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (106).jpg": {
+  "group_id": 501,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (107).jpg": {
+  "group_id": 502,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (111).jpg": {
+  "group_id": 503,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (112).jpg": {
+  "group_id": 504,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (113).jpg": {
+  "group_id": 505,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (114).jpg": {
+  "group_id": 506,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (115).jpg": {
+  "group_id": 507,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (122).jpg": {
+  "group_id": 508,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (123).jpg": {
+  "group_id": 509,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (124).jpg": {
+  "group_id": 510,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (125).jpg": {
+  "group_id": 511,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (126).jpg": {
+  "group_id": 512,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (131).jpg": {
+  "group_id": 513,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (132).jpg": {
+  "group_id": 514,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (133).jpg": {
+  "group_id": 515,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (157).jpg": {
+  "group_id": 516,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (158).jpg": {
+  "group_id": 517,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (165).jpg": {
+  "group_id": 518,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (166).jpg": {
+  "group_id": 519,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (167).jpg": {
+  "group_id": 520,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (168).jpg": {
+  "group_id": 521,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (169).jpg": {
+  "group_id": 522,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (173).jpg": {
+  "group_id": 523,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (174).jpg": {
+  "group_id": 524,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (178).jpg": {
+  "group_id": 525,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (182).jpg": {
+  "group_id": 526,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (183).jpg": {
+  "group_id": 527,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (184).jpg": {
+  "group_id": 528,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (185).jpg": {
+  "group_id": 529,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (186).jpg": {
+  "group_id": 530,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (187).jpg": {
+  "group_id": 531,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (188).jpg": {
+  "group_id": 532,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (189).jpg": {
+  "group_id": 533,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (192).jpg": {
+  "group_id": 534,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (193).jpg": {
+  "group_id": 535,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (194).jpg": {
+  "group_id": 536,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (199).jpg": {
+  "group_id": 537,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (2).jpg": {
+  "group_id": 538,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (202).jpg": {
+  "group_id": 539,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (212).jpg": {
+  "group_id": 540,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (222).jpg": {
+  "group_id": 541,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (223).jpg": {
+  "group_id": 542,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (227).jpg": {
+  "group_id": 543,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (228).jpg": {
+  "group_id": 544,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (229).jpg": {
+  "group_id": 545,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (230).jpg": {
+  "group_id": 546,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (242).jpg": {
+  "group_id": 547,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (243).jpg": {
+  "group_id": 548,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (25).jpg": {
+  "group_id": 549,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (254).jpg": {
+  "group_id": 550,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (26).jpg": {
+  "group_id": 551,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (279).jpg": {
+  "group_id": 552,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (282).jpg": {
+  "group_id": 553,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (288).jpg": {
+  "group_id": 554,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (29).jpg": {
+  "group_id": 555,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (291).jpg": {
+  "group_id": 556,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (292).jpg": {
+  "group_id": 557,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (293).jpg": {
+  "group_id": 558,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (3).jpg": {
+  "group_id": 559,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (30).jpg": {
+  "group_id": 560,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (312).jpg": {
+  "group_id": 561,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (313).jpg": {
+  "group_id": 562,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (314).jpg": {
+  "group_id": 563,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (315).jpg": {
+  "group_id": 564,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (316).jpg": {
+  "group_id": 565,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (318).jpg": {
+  "group_id": 566,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (336).jpg": {
+  "group_id": 567,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (339).jpg": {
+  "group_id": 568,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (343).jpg": {
+  "group_id": 569,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (344).jpg": {
+  "group_id": 570,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (345).jpg": {
+  "group_id": 571,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (346).jpg": {
+  "group_id": 572,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (349).jpg": {
+  "group_id": 573,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (351).jpg": {
+  "group_id": 574,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (352).jpg": {
+  "group_id": 575,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (353).jpg": {
+  "group_id": 576,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (355).jpg": {
+  "group_id": 577,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (37).jpg": {
+  "group_id": 578,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (370).jpg": {
+  "group_id": 579,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (385).jpg": {
+  "group_id": 580,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (391).jpg": {
+  "group_id": 581,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (397).jpg": {
+  "group_id": 582,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (398).jpg": {
+  "group_id": 583,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (399).jpg": {
+  "group_id": 584,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (400).jpg": {
+  "group_id": 585,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (401).jpg": {
+  "group_id": 586,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (46).jpg": {
+  "group_id": 587,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (47).jpg": {
+  "group_id": 588,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (56).jpg": {
+  "group_id": 589,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (57).jpg": {
+  "group_id": 590,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (58).jpg": {
+  "group_id": 591,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (59).jpg": {
+  "group_id": 592,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (6).jpg": {
+  "group_id": 593,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (60).jpg": {
+  "group_id": 594,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (61).jpg": {
+  "group_id": 595,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (62).jpg": {
+  "group_id": 596,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (63).jpg": {
+  "group_id": 597,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (64).jpg": {
+  "group_id": 598,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (65).jpg": {
+  "group_id": 599,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (66).jpg": {
+  "group_id": 600,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (67).jpg": {
+  "group_id": 601,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (7).jpg": {
+  "group_id": 602,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (72).jpg": {
+  "group_id": 603,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (73).jpg": {
+  "group_id": 604,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (74).jpg": {
+  "group_id": 605,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (78).jpg": {
+  "group_id": 606,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (79).jpg": {
+  "group_id": 607,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (80).jpg": {
+  "group_id": 608,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (81).jpg": {
+  "group_id": 609,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (88).jpg": {
+  "group_id": 610,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (89).jpg": {
+  "group_id": 611,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (90).jpg": {
+  "group_id": 612,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (91).jpg": {
+  "group_id": 613,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (96).jpg": {
+  "group_id": 614,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (97).jpg": {
+  "group_id": 615,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ },
+ "Normal case (98).jpg": {
+  "group_id": 616,
+  "group_size": 1,
+  "group_label_mix": {
+   "normal": 1
+  }
+ }
+}

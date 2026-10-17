@@ -1,0 +1,44 @@
+{
+ "experiment": "unet_nodule_segmentation",
+ "input": "2D single slice",
+ "architecture": "UNet(base=24, depth=4)",
+ "split": {
+  "patients_train": 35,
+  "patients_val": 7,
+  "patients_test": 8,
+  "slices_train": 954,
+  "slices_val": 176,
+  "slices_test": 250,
+  "policy": "patient-level on real LIDC patient IDs"
+ },
+ "threshold_tuned_on_validation": 0.35,
+ "in_domain_test": {
+  "dice": 0.3924,
+  "iou": 0.3335,
+  "n_slices": 168,
+  "n_patients": 8
+ },
+ "cross_domain_probe": {
+  "normal": {
+   "n": 120,
+   "fired": 19,
+   "fire_rate": 0.1583,
+   "mean_area_frac_when_fired": 0.0001
+  },
+  "benign": {
+   "n": 30,
+   "fired": 3,
+   "fire_rate": 0.1,
+   "mean_area_frac_when_fired": 0.00011
+  },
+  "malignant": {
+   "n": 163,
+   "fired": 86,
+   "fire_rate": 0.5276,
+   "mean_area_frac_when_fired": 0.00028
+  }
+ },
+ "malignant_to_normal_firing_ratio": 3.333,
+ "transfer_verdict": "Fires substantially more on malignant than normal images, indicating the segmenter carries real signal across domains.",
+ "note": "This is the DEPLOYED v1 model (922 masks, cap 3 slices/nodule). See D24 for three fixes that were tried and rejected."
+}

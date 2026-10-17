@@ -1,0 +1,3991 @@
+{
+ "note": "Grad-CAM++ attention scored against real DeepLesion lesion boxes. Green overlays were inpainted before inference so the model could not see the annotation. DeepLesion lesions are general CT lesions, not necessarily lung cancer, and carry no class label: this measures spatial attention quality only.",
+ "results": {
+  "efficientnet_b3": {
+   "n_images": 197,
+   "n_lung_field_lesions": 78,
+   "lung_field_subset": {
+    "n_lung_lesions": 78,
+    "pointing_game_hit_rate": 0.0,
+    "chance_hit_rate": 0.003,
+    "lift_over_chance": 0.0,
+    "mean_attention_energy_in_box": 0.004,
+    "energy_lift_over_area": 1.34
+   },
+   "n_patients": 77,
+   "pointing_game_hit_rate": 0.0051,
+   "random_baseline_hit_rate": 0.0,
+   "expected_chance_hit_rate": 0.0043,
+   "lift_over_chance": 1.19,
+   "mean_attention_energy_in_box": 0.006,
+   "energy_lift_over_area": 1.41,
+   "mean_lesion_area_fraction": 0.00427,
+   "runtime_sec": 9.6,
+   "per_file": [
+    {
+     "file": "000001_03_01_088.png",
+     "patient_id": "000001",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0348,
+     "box_area_fraction": 0.0037,
+     "predicted_class": "malignant",
+     "confidence": 0.5735
+    },
+    {
+     "file": "000017_02_01_016.png",
+     "patient_id": "000017",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0009,
+     "box_area_fraction": 0.0044,
+     "predicted_class": "malignant",
+     "confidence": 0.9252
+    },
+    {
+     "file": "000019_01_01_021.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0005,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.6671
+    },
+    {
+     "file": "000019_02_01_025.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8951
+    },
+    {
+     "file": "000019_03_01_025.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.8954
+    },
+    {
+     "file": "000020_01_01_066.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.692
+    },
+    {
+     "file": "000020_02_01_062.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "normal",
+     "confidence": 0.807
+    },
+    {
+     "file": "000020_03_01_134.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.9173
+    },
+    {
+     "file": "000020_03_01_166.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.002,
+     "box_area_fraction": 0.0065,
+     "predicted_class": "malignant",
+     "confidence": 0.8188
+    },
+    {
+     "file": "000020_03_01_212.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.7696
+    },
+    {
+     "file": "000020_04_01_116.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.8312
+    },
+    {
+     "file": "000020_04_01_143.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0045,
+     "box_area_fraction": 0.0068,
+     "predicted_class": "malignant",
+     "confidence": 0.698
+    },
+    {
+     "file": "000020_04_01_159.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.7156
+    },
+    {
+     "file": "000021_01_01_016.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0102,
+     "box_area_fraction": 0.0026,
+     "predicted_class": "malignant",
+     "confidence": 0.6553
+    },
+    {
+     "file": "000021_02_01_068.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0079,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.7901
+    },
+    {
+     "file": "000021_03_01_012.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9002
+    },
+    {
+     "file": "000021_03_01_017.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0069,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8328
+    },
+    {
+     "file": "000021_04_01_090.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0095,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.5726
+    },
+    {
+     "file": "000027_01_01_113.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.8869
+    },
+    {
+     "file": "000027_02_01_105.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.8398
+    },
+    {
+     "file": "000027_03_01_095.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.005,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.808
+    },
+    {
+     "file": "000027_04_01_119.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9114
+    },
+    {
+     "file": "000027_05_01_099.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0053,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.966
+    },
+    {
+     "file": "000027_06_01_020.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0078,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.848
+    },
+    {
+     "file": "000054_03_01_018.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0241,
+     "box_area_fraction": 0.0191,
+     "predicted_class": "malignant",
+     "confidence": 0.7603
+    },
+    {
+     "file": "000054_03_01_025.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0049,
+     "predicted_class": "malignant",
+     "confidence": 0.6669
+    },
+    {
+     "file": "000054_03_01_033.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.7413
+    },
+    {
+     "file": "000058_06_02_177.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0063,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.9652
+    },
+    {
+     "file": "000058_06_02_223.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0028,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9574
+    },
+    {
+     "file": "000058_07_01_170.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8824
+    },
+    {
+     "file": "000058_07_01_195.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9446
+    },
+    {
+     "file": "000058_07_01_218.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0071,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.9815
+    },
+    {
+     "file": "000058_08_01_035.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0033,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.916
+    },
+    {
+     "file": "000063_01_01_155.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.0238,
+     "predicted_class": "normal",
+     "confidence": 0.8596
+    },
+    {
+     "file": "000063_02_01_035.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0259,
+     "box_area_fraction": 0.0083,
+     "predicted_class": "malignant",
+     "confidence": 0.9664
+    },
+    {
+     "file": "000063_03_01_144.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0147,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.6789
+    },
+    {
+     "file": "000063_04_01_160.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.018,
+     "box_area_fraction": 0.0073,
+     "predicted_class": "malignant",
+     "confidence": 0.5796
+    },
+    {
+     "file": "000065_06_01_030.png",
+     "patient_id": "000065",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9351
+    },
+    {
+     "file": "000103_01_01_104.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8582
+    },
+    {
+     "file": "000103_01_01_173.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0053,
+     "box_area_fraction": 0.0021,
+     "predicted_class": "malignant",
+     "confidence": 0.9256
+    },
+    {
+     "file": "000103_02_01_060.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0005,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.8875
+    },
+    {
+     "file": "000103_02_01_107.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9296
+    },
+    {
+     "file": "000103_02_01_168.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0056,
+     "predicted_class": "malignant",
+     "confidence": 0.8232
+    },
+    {
+     "file": "000103_03_01_082.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0039,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.8192
+    },
+    {
+     "file": "000103_03_01_166.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.001,
+     "box_area_fraction": 0.0116,
+     "predicted_class": "malignant",
+     "confidence": 0.6789
+    },
+    {
+     "file": "000103_04_02_090.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0111,
+     "box_area_fraction": 0.0042,
+     "predicted_class": "malignant",
+     "confidence": 0.9055
+    },
+    {
+     "file": "000103_04_02_175.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0103,
+     "predicted_class": "malignant",
+     "confidence": 0.8451
+    },
+    {
+     "file": "000103_05_01_133.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.005,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.7442
+    },
+    {
+     "file": "000103_05_01_136.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.007,
+     "box_area_fraction": 0.0156,
+     "predicted_class": "malignant",
+     "confidence": 0.8558
+    },
+    {
+     "file": "000103_06_01_131.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0087,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.7239
+    },
+    {
+     "file": "000103_07_01_022.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9331
+    },
+    {
+     "file": "000103_07_02_082.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.9309
+    },
+    {
+     "file": "000103_07_02_160.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8493
+    },
+    {
+     "file": "000103_08_01_016.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0068,
+     "box_area_fraction": 0.0042,
+     "predicted_class": "malignant",
+     "confidence": 0.801
+    },
+    {
+     "file": "000103_08_01_021.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0176,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.616
+    },
+    {
+     "file": "000103_08_02_153.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0205,
+     "box_area_fraction": 0.0037,
+     "predicted_class": "malignant",
+     "confidence": 0.5701
+    },
+    {
+     "file": "000103_09_01_019.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0033,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9058
+    },
+    {
+     "file": "000103_09_01_023.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9227
+    },
+    {
+     "file": "000103_09_02_169.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0057,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.7657
+    },
+    {
+     "file": "000103_10_01_166.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.677
+    },
+    {
+     "file": "000103_11_01_177.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.001,
+     "predicted_class": "benign",
+     "confidence": 0.4517
+    },
+    {
+     "file": "000103_12_01_075.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0038,
+     "predicted_class": "malignant",
+     "confidence": 0.6485
+    },
+    {
+     "file": "000103_12_01_105.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8828
+    },
+    {
+     "file": "000103_12_02_161.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0053,
+     "box_area_fraction": 0.001,
+     "predicted_class": "normal",
+     "confidence": 0.6569
+    },
+    {
+     "file": "000103_13_01_019.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0004,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.809
+    },
+    {
+     "file": "000103_13_02_092.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0145,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.7877
+    },
+    {
+     "file": "000103_13_02_122.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.8522
+    },
+    {
+     "file": "000105_02_01_149.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0002,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.6231
+    },
+    {
+     "file": "000105_03_01_162.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.001,
+     "predicted_class": "normal",
+     "confidence": 0.5019
+    },
+    {
+     "file": "000105_04_01_144.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.4684
+    },
+    {
+     "file": "000133_03_02_145.png",
+     "patient_id": "000133",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0009,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9498
+    },
+    {
+     "file": "000133_03_02_192.png",
+     "patient_id": "000133",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9477
+    },
+    {
+     "file": "000135_02_03_127.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9348
+    },
+    {
+     "file": "000135_02_03_161.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0047,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8681
+    },
+    {
+     "file": "000135_02_03_178.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.4679
+    },
+    {
+     "file": "000138_01_01_114.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0025,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9798
+    },
+    {
+     "file": "000138_01_01_148.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0041,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9845
+    },
+    {
+     "file": "000138_02_01_101.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0067,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9161
+    },
+    {
+     "file": "000143_04_02_083.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0044,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.9128
+    },
+    {
+     "file": "000143_04_02_126.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0002,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9609
+    },
+    {
+     "file": "000143_04_02_153.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9881
+    },
+    {
+     "file": "000143_05_01_116.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0077,
+     "box_area_fraction": 0.0021,
+     "predicted_class": "malignant",
+     "confidence": 0.9885
+    },
+    {
+     "file": "000143_05_01_120.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9738
+    },
+    {
+     "file": "000143_05_01_136.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0069,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9776
+    },
+    {
+     "file": "000185_02_04_174.png",
+     "patient_id": "000185",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0034,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.955
+    },
+    {
+     "file": "000188_02_01_157.png",
+     "patient_id": "000188",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "normal",
+     "confidence": 0.5313
+    },
+    {
+     "file": "000188_03_01_146.png",
+     "patient_id": "000188",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0094,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.6553
+    },
+    {
+     "file": "000196_03_02_132.png",
+     "patient_id": "000196",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0034,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.7082
+    },
+    {
+     "file": "000196_03_02_173.png",
+     "patient_id": "000196",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0043,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8629
+    },
+    {
+     "file": "000198_05_01_112.png",
+     "patient_id": "000198",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9299
+    },
+    {
+     "file": "000198_05_01_124.png",
+     "patient_id": "000198",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0054,
+     "box_area_fraction": 0.0036,
+     "predicted_class": "malignant",
+     "confidence": 0.8791
+    },
+    {
+     "file": "000199_01_02_207.png",
+     "patient_id": "000199",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0279,
+     "box_area_fraction": 0.0093,
+     "predicted_class": "malignant",
+     "confidence": 0.9444
+    },
+    {
+     "file": "000207_03_01_075.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0023,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.9401
+    },
+    {
+     "file": "000207_03_01_085.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.8537
+    },
+    {
+     "file": "000207_04_01_059.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8971
+    },
+    {
+     "file": "000207_04_01_068.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9326
+    },
+    {
+     "file": "000207_04_01_191.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0098,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.9435
+    },
+    {
+     "file": "000223_05_03_105.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0463,
+     "box_area_fraction": 0.0139,
+     "predicted_class": "malignant",
+     "confidence": 0.9352
+    },
+    {
+     "file": "000223_05_03_128.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0075,
+     "predicted_class": "malignant",
+     "confidence": 0.9677
+    },
+    {
+     "file": "000223_06_03_104.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0948,
+     "box_area_fraction": 0.1107,
+     "predicted_class": "malignant",
+     "confidence": 0.877
+    },
+    {
+     "file": "000223_07_01_106.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0357,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.9533
+    },
+    {
+     "file": "000223_07_01_107.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0046,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.9554
+    },
+    {
+     "file": "000223_07_01_133.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0034,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9272
+    },
+    {
+     "file": "000223_07_01_168.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.8991
+    },
+    {
+     "file": "000223_08_01_106.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0166,
+     "box_area_fraction": 0.0118,
+     "predicted_class": "malignant",
+     "confidence": 0.8559
+    },
+    {
+     "file": "000223_08_01_109.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0119,
+     "box_area_fraction": 0.0073,
+     "predicted_class": "malignant",
+     "confidence": 0.9377
+    },
+    {
+     "file": "000223_09_02_109.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0089,
+     "predicted_class": "malignant",
+     "confidence": 0.9639
+    },
+    {
+     "file": "000223_09_02_132.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0012,
+     "box_area_fraction": 0.0062,
+     "predicted_class": "malignant",
+     "confidence": 0.975
+    },
+    {
+     "file": "000223_09_02_146.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0054,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9896
+    },
+    {
+     "file": "000226_02_01_079.png",
+     "patient_id": "000226",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0116,
+     "box_area_fraction": 0.0045,
+     "predicted_class": "malignant",
+     "confidence": 0.775
+    },
+    {
+     "file": "000228_03_03_165.png",
+     "patient_id": "000228",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0028,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.9221
+    },
+    {
+     "file": "000229_03_04_153.png",
+     "patient_id": "000229",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0073,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.7822
+    },
+    {
+     "file": "000229_03_04_202.png",
+     "patient_id": "000229",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0104,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.7737
+    },
+    {
+     "file": "000230_01_01_175.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.8834
+    },
+    {
+     "file": "000230_02_01_157.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.7574
+    },
+    {
+     "file": "000230_03_02_166.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0039,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.7421
+    },
+    {
+     "file": "000230_04_01_174.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.5231
+    },
+    {
+     "file": "000230_04_01_240.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.481
+    },
+    {
+     "file": "000230_04_01_242.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0055,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.4184
+    },
+    {
+     "file": "000230_05_01_165.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.003,
+     "predicted_class": "normal",
+     "confidence": 0.5463
+    },
+    {
+     "file": "000230_05_01_233.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0138,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8988
+    },
+    {
+     "file": "000231_02_01_042.png",
+     "patient_id": "000231",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.6925
+    },
+    {
+     "file": "000238_09_03_124.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "normal",
+     "confidence": 0.7149
+    },
+    {
+     "file": "000238_09_03_162.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0032,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.8338
+    },
+    {
+     "file": "000238_09_03_268.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "normal",
+     "confidence": 0.4556
+    },
+    {
+     "file": "000238_10_02_152.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8523
+    },
+    {
+     "file": "000245_03_02_169.png",
+     "patient_id": "000245",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.003,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.7408
+    },
+    {
+     "file": "000245_03_02_214.png",
+     "patient_id": "000245",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0032,
+     "box_area_fraction": 0.006,
+     "predicted_class": "malignant",
+     "confidence": 0.9682
+    },
+    {
+     "file": "000247_03_01_202.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0038,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.806
+    },
+    {
+     "file": "000247_04_01_165.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0056,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.8491
+    },
+    {
+     "file": "000247_04_01_209.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8226
+    },
+    {
+     "file": "000247_05_01_178.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.7602
+    },
+    {
+     "file": "000247_05_01_221.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0007,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8841
+    },
+    {
+     "file": "000247_06_02_149.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.5952
+    },
+    {
+     "file": "000247_06_02_201.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0048,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.8843
+    },
+    {
+     "file": "000251_08_02_195.png",
+     "patient_id": "000251",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.6808
+    },
+    {
+     "file": "000265_11_02_190.png",
+     "patient_id": "000265",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0009,
+     "predicted_class": "malignant",
+     "confidence": 0.9502
+    },
+    {
+     "file": "000266_03_02_133.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.027,
+     "box_area_fraction": 0.0096,
+     "predicted_class": "malignant",
+     "confidence": 0.5704
+    },
+    {
+     "file": "000266_03_02_138.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.5798
+    },
+    {
+     "file": "000266_04_01_030.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0001,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.7937
+    },
+    {
+     "file": "000266_04_02_098.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.6626
+    },
+    {
+     "file": "000266_04_02_150.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0068,
+     "predicted_class": "malignant",
+     "confidence": 0.6404
+    },
+    {
+     "file": "000271_12_02_237.png",
+     "patient_id": "000271",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8659
+    },
+    {
+     "file": "000271_12_02_242.png",
+     "patient_id": "000271",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0055,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.7374
+    },
+    {
+     "file": "000276_05_02_188.png",
+     "patient_id": "000276",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.001,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.6753
+    },
+    {
+     "file": "000278_07_02_182.png",
+     "patient_id": "000278",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.677
+    },
+    {
+     "file": "000280_02_03_200.png",
+     "patient_id": "000280",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8189
+    },
+    {
+     "file": "000282_04_02_120.png",
+     "patient_id": "000282",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0059,
+     "box_area_fraction": 0.0051,
+     "predicted_class": "malignant",
+     "confidence": 0.8118
+    },
+    {
+     "file": "000283_13_02_106.png",
+     "patient_id": "000283",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0007,
+     "predicted_class": "malignant",
+     "confidence": 0.9144
+    },
+    {
+     "file": "000284_01_02_105.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9687
+    },
+    {
+     "file": "000284_01_02_121.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8454
+    },
+    {
+     "file": "000284_02_02_018.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "normal",
+     "confidence": 0.6098
+    },
+    {
+     "file": "000284_03_01_084.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.5772
+    },
+    {
+     "file": "000293_06_03_154.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.6985
+    },
+    {
+     "file": "000293_06_03_161.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.004,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.5418
+    },
+    {
+     "file": "000293_06_03_176.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0047,
+     "predicted_class": "malignant",
+     "confidence": 0.7057
+    },
+    {
+     "file": "000304_01_01_210.png",
+     "patient_id": "000304",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0038,
+     "predicted_class": "malignant",
+     "confidence": 0.7973
+    },
+    {
+     "file": "000306_06_02_126.png",
+     "patient_id": "000306",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0104,
+     "box_area_fraction": 0.0026,
+     "predicted_class": "malignant",
+     "confidence": 0.879
+    },
+    {
+     "file": "000306_06_02_201.png",
+     "patient_id": "000306",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0044,
+     "box_area_fraction": 0.0046,
+     "predicted_class": "malignant",
+     "confidence": 0.7642
+    },
+    {
+     "file": "000308_03_02_091.png",
+     "patient_id": "000308",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0004,
+     "box_area_fraction": 0.0064,
+     "predicted_class": "malignant",
+     "confidence": 0.9206
+    },
+    {
+     "file": "000308_03_02_122.png",
+     "patient_id": "000308",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0045,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.929
+    },
+    {
+     "file": "000310_01_01_115.png",
+     "patient_id": "000310",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0168,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.8188
+    },
+    {
+     "file": "000314_04_02_183.png",
+     "patient_id": "000314",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0009,
+     "predicted_class": "malignant",
+     "confidence": 0.5324
+    },
+    {
+     "file": "000315_04_03_094.png",
+     "patient_id": "000315",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.6143
+    },
+    {
+     "file": "000315_04_03_145.png",
+     "patient_id": "000315",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0036,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.8404
+    },
+    {
+     "file": "000316_01_01_071.png",
+     "patient_id": "000316",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9688
+    },
+    {
+     "file": "000328_08_03_167.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.8739
+    },
+    {
+     "file": "000328_08_03_172.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0017,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.8641
+    },
+    {
+     "file": "000328_08_03_180.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9254
+    },
+    {
+     "file": "000569_08_01_020.png",
+     "patient_id": "000569",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.7881
+    },
+    {
+     "file": "000747_03_03_172.png",
+     "patient_id": "000747",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9796
+    },
+    {
+     "file": "000749_03_02_108.png",
+     "patient_id": "000749",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0062,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.8425
+    },
+    {
+     "file": "000874_03_02_219.png",
+     "patient_id": "000874",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0078,
+     "predicted_class": "malignant",
+     "confidence": 0.5675
+    },
+    {
+     "file": "001083_09_01_093.png",
+     "patient_id": "001083",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0002,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.5313
+    },
+    {
+     "file": "001230_03_02_148.png",
+     "patient_id": "001230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0238,
+     "box_area_fraction": 0.0066,
+     "predicted_class": "malignant",
+     "confidence": 0.8974
+    },
+    {
+     "file": "001337_01_02_176.png",
+     "patient_id": "001337",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0066,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.3937
+    },
+    {
+     "file": "001404_01_01_139.png",
+     "patient_id": "001404",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.5905
+    },
+    {
+     "file": "001574_13_01_090.png",
+     "patient_id": "001574",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.7013
+    },
+    {
+     "file": "001598_15_02_231.png",
+     "patient_id": "001598",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0002,
+     "box_area_fraction": 0.0053,
+     "predicted_class": "malignant",
+     "confidence": 0.946
+    },
+    {
+     "file": "001797_01_02_221.png",
+     "patient_id": "001797",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.6263
+    },
+    {
+     "file": "002124_02_02_251.png",
+     "patient_id": "002124",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0041,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.4004
+    },
+    {
+     "file": "002241_02_03_218.png",
+     "patient_id": "002241",
+     "hit": true,
+     "in_lung_field": false,
+     "energy_in_box": 0.0443,
+     "box_area_fraction": 0.0074,
+     "predicted_class": "malignant",
+     "confidence": 0.9051
+    },
+    {
+     "file": "002265_01_01_016.png",
+     "patient_id": "002265",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.7202
+    },
+    {
+     "file": "002265_02_01_031.png",
+     "patient_id": "002265",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.8962
+    },
+    {
+     "file": "002276_05_03_078.png",
+     "patient_id": "002276",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0089,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.8942
+    },
+    {
+     "file": "002408_01_01_161.png",
+     "patient_id": "002408",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.002,
+     "box_area_fraction": 0.0018,
+     "predicted_class": "malignant",
+     "confidence": 0.6735
+    },
+    {
+     "file": "002435_04_01_230.png",
+     "patient_id": "002435",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.7184
+    },
+    {
+     "file": "002463_01_01_029.png",
+     "patient_id": "002463",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0651,
+     "box_area_fraction": 0.052,
+     "predicted_class": "malignant",
+     "confidence": 0.9485
+    },
+    {
+     "file": "002601_01_01_237.png",
+     "patient_id": "002601",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.8247
+    },
+    {
+     "file": "002639_05_01_141.png",
+     "patient_id": "002639",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0066,
+     "box_area_fraction": 0.0054,
+     "predicted_class": "malignant",
+     "confidence": 0.6607
+    },
+    {
+     "file": "002701_04_03_160.png",
+     "patient_id": "002701",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.091,
+     "box_area_fraction": 0.0188,
+     "predicted_class": "malignant",
+     "confidence": 0.7608
+    },
+    {
+     "file": "003038_05_01_063.png",
+     "patient_id": "003038",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0036,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.612
+    },
+    {
+     "file": "003311_02_01_028.png",
+     "patient_id": "003311",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0112,
+     "box_area_fraction": 0.0052,
+     "predicted_class": "malignant",
+     "confidence": 0.6196
+    },
+    {
+     "file": "003380_03_01_140.png",
+     "patient_id": "003380",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0112,
+     "box_area_fraction": 0.0044,
+     "predicted_class": "malignant",
+     "confidence": 0.9843
+    },
+    {
+     "file": "003412_03_01_108.png",
+     "patient_id": "003412",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0109,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.8337
+    },
+    {
+     "file": "003601_02_01_076.png",
+     "patient_id": "003601",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0084,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.4447
+    },
+    {
+     "file": "004085_01_02_107.png",
+     "patient_id": "004085",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0003,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.8967
+    }
+   ]
+  },
+  "densenet121": {
+   "n_images": 197,
+   "n_lung_field_lesions": 78,
+   "lung_field_subset": {
+    "n_lung_lesions": 78,
+    "pointing_game_hit_rate": 0.0,
+    "chance_hit_rate": 0.003,
+    "lift_over_chance": 0.0,
+    "mean_attention_energy_in_box": 0.0043,
+    "energy_lift_over_area": 1.42
+   },
+   "n_patients": 77,
+   "pointing_game_hit_rate": 0.0,
+   "random_baseline_hit_rate": 0.0,
+   "expected_chance_hit_rate": 0.0043,
+   "lift_over_chance": 0.0,
+   "mean_attention_energy_in_box": 0.0075,
+   "energy_lift_over_area": 1.76,
+   "mean_lesion_area_fraction": 0.00427,
+   "runtime_sec": 11.7,
+   "per_file": [
+    {
+     "file": "000001_03_01_088.png",
+     "patient_id": "000001",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0059,
+     "box_area_fraction": 0.0037,
+     "predicted_class": "malignant",
+     "confidence": 0.9794
+    },
+    {
+     "file": "000017_02_01_016.png",
+     "patient_id": "000017",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0104,
+     "box_area_fraction": 0.0044,
+     "predicted_class": "malignant",
+     "confidence": 0.9784
+    },
+    {
+     "file": "000019_01_01_021.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.004,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9523
+    },
+    {
+     "file": "000019_02_01_025.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0036,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9843
+    },
+    {
+     "file": "000019_03_01_025.png",
+     "patient_id": "000019",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0079,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.9925
+    },
+    {
+     "file": "000020_01_01_066.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9442
+    },
+    {
+     "file": "000020_02_01_062.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0049,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.8891
+    },
+    {
+     "file": "000020_03_01_134.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0045,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.9628
+    },
+    {
+     "file": "000020_03_01_166.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0152,
+     "box_area_fraction": 0.0065,
+     "predicted_class": "malignant",
+     "confidence": 0.9079
+    },
+    {
+     "file": "000020_03_01_212.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.7184
+    },
+    {
+     "file": "000020_04_01_116.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0042,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.9655
+    },
+    {
+     "file": "000020_04_01_143.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0129,
+     "box_area_fraction": 0.0068,
+     "predicted_class": "malignant",
+     "confidence": 0.938
+    },
+    {
+     "file": "000020_04_01_159.png",
+     "patient_id": "000020",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.006,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.9277
+    },
+    {
+     "file": "000021_01_01_016.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0132,
+     "box_area_fraction": 0.0026,
+     "predicted_class": "malignant",
+     "confidence": 0.909
+    },
+    {
+     "file": "000021_02_01_068.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.01,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.947
+    },
+    {
+     "file": "000021_03_01_012.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0039,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9764
+    },
+    {
+     "file": "000021_03_01_017.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0085,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9601
+    },
+    {
+     "file": "000021_04_01_090.png",
+     "patient_id": "000021",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0086,
+     "box_area_fraction": 0.0032,
+     "predicted_class": "malignant",
+     "confidence": 0.9284
+    },
+    {
+     "file": "000027_01_01_113.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0005,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9919
+    },
+    {
+     "file": "000027_02_01_105.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0006,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.9963
+    },
+    {
+     "file": "000027_03_01_095.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.9903
+    },
+    {
+     "file": "000027_04_01_119.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0017,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9923
+    },
+    {
+     "file": "000027_05_01_099.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0012,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9911
+    },
+    {
+     "file": "000027_06_01_020.png",
+     "patient_id": "000027",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0009,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.7856
+    },
+    {
+     "file": "000054_03_01_018.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0342,
+     "box_area_fraction": 0.0191,
+     "predicted_class": "malignant",
+     "confidence": 0.9663
+    },
+    {
+     "file": "000054_03_01_025.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0107,
+     "box_area_fraction": 0.0049,
+     "predicted_class": "malignant",
+     "confidence": 0.9913
+    },
+    {
+     "file": "000054_03_01_033.png",
+     "patient_id": "000054",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0093,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.9788
+    },
+    {
+     "file": "000058_06_02_177.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.9802
+    },
+    {
+     "file": "000058_06_02_223.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0017,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.8969
+    },
+    {
+     "file": "000058_07_01_170.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0033,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9853
+    },
+    {
+     "file": "000058_07_01_195.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0032,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9797
+    },
+    {
+     "file": "000058_07_01_218.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.9791
+    },
+    {
+     "file": "000058_08_01_035.png",
+     "patient_id": "000058",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.982
+    },
+    {
+     "file": "000063_01_01_155.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0493,
+     "box_area_fraction": 0.0238,
+     "predicted_class": "malignant",
+     "confidence": 0.7386
+    },
+    {
+     "file": "000063_02_01_035.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.012,
+     "box_area_fraction": 0.0083,
+     "predicted_class": "malignant",
+     "confidence": 0.9912
+    },
+    {
+     "file": "000063_03_01_144.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.012,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.9438
+    },
+    {
+     "file": "000063_04_01_160.png",
+     "patient_id": "000063",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0112,
+     "box_area_fraction": 0.0073,
+     "predicted_class": "malignant",
+     "confidence": 0.9127
+    },
+    {
+     "file": "000065_06_01_030.png",
+     "patient_id": "000065",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0074,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9675
+    },
+    {
+     "file": "000103_01_01_104.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0028,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.975
+    },
+    {
+     "file": "000103_01_01_173.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0041,
+     "box_area_fraction": 0.0021,
+     "predicted_class": "malignant",
+     "confidence": 0.8808
+    },
+    {
+     "file": "000103_02_01_060.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.9373
+    },
+    {
+     "file": "000103_02_01_107.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.003,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9812
+    },
+    {
+     "file": "000103_02_01_168.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0118,
+     "box_area_fraction": 0.0056,
+     "predicted_class": "malignant",
+     "confidence": 0.9589
+    },
+    {
+     "file": "000103_03_01_082.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0036,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9177
+    },
+    {
+     "file": "000103_03_01_166.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0206,
+     "box_area_fraction": 0.0116,
+     "predicted_class": "malignant",
+     "confidence": 0.8602
+    },
+    {
+     "file": "000103_04_02_090.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0083,
+     "box_area_fraction": 0.0042,
+     "predicted_class": "malignant",
+     "confidence": 0.9543
+    },
+    {
+     "file": "000103_04_02_175.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0221,
+     "box_area_fraction": 0.0103,
+     "predicted_class": "malignant",
+     "confidence": 0.9416
+    },
+    {
+     "file": "000103_05_01_133.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9795
+    },
+    {
+     "file": "000103_05_01_136.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0233,
+     "box_area_fraction": 0.0156,
+     "predicted_class": "malignant",
+     "confidence": 0.9714
+    },
+    {
+     "file": "000103_06_01_131.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9708
+    },
+    {
+     "file": "000103_07_01_022.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0072,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.9941
+    },
+    {
+     "file": "000103_07_02_082.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0073,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.9488
+    },
+    {
+     "file": "000103_07_02_160.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0018,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9542
+    },
+    {
+     "file": "000103_08_01_016.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0096,
+     "box_area_fraction": 0.0042,
+     "predicted_class": "malignant",
+     "confidence": 0.8974
+    },
+    {
+     "file": "000103_08_01_021.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0107,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.936
+    },
+    {
+     "file": "000103_08_02_153.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0039,
+     "box_area_fraction": 0.0037,
+     "predicted_class": "benign",
+     "confidence": 0.4095
+    },
+    {
+     "file": "000103_09_01_019.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0037,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9235
+    },
+    {
+     "file": "000103_09_01_023.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0059,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9554
+    },
+    {
+     "file": "000103_09_02_169.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0009,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.847
+    },
+    {
+     "file": "000103_10_01_166.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9191
+    },
+    {
+     "file": "000103_11_01_177.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.7146
+    },
+    {
+     "file": "000103_12_01_075.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0068,
+     "box_area_fraction": 0.0038,
+     "predicted_class": "malignant",
+     "confidence": 0.8437
+    },
+    {
+     "file": "000103_12_01_105.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0049,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.982
+    },
+    {
+     "file": "000103_12_02_161.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.001,
+     "predicted_class": "normal",
+     "confidence": 0.7086
+    },
+    {
+     "file": "000103_13_01_019.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0051,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9781
+    },
+    {
+     "file": "000103_13_02_092.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0093,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.965
+    },
+    {
+     "file": "000103_13_02_122.png",
+     "patient_id": "000103",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0061,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.9808
+    },
+    {
+     "file": "000105_02_01_149.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0006,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.89
+    },
+    {
+     "file": "000105_03_01_162.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0006,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.7216
+    },
+    {
+     "file": "000105_04_01_144.png",
+     "patient_id": "000105",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0007,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.7549
+    },
+    {
+     "file": "000133_03_02_145.png",
+     "patient_id": "000133",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9877
+    },
+    {
+     "file": "000133_03_02_192.png",
+     "patient_id": "000133",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0026,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9606
+    },
+    {
+     "file": "000135_02_03_127.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9706
+    },
+    {
+     "file": "000135_02_03_161.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8109
+    },
+    {
+     "file": "000135_02_03_178.png",
+     "patient_id": "000135",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0015,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.5777
+    },
+    {
+     "file": "000138_01_01_114.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.003,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9895
+    },
+    {
+     "file": "000138_01_01_148.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.004,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9647
+    },
+    {
+     "file": "000138_02_01_101.png",
+     "patient_id": "000138",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0028,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.971
+    },
+    {
+     "file": "000143_04_02_083.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.9517
+    },
+    {
+     "file": "000143_04_02_126.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9563
+    },
+    {
+     "file": "000143_04_02_153.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.008,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9492
+    },
+    {
+     "file": "000143_05_01_116.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.0021,
+     "predicted_class": "malignant",
+     "confidence": 0.9442
+    },
+    {
+     "file": "000143_05_01_120.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9766
+    },
+    {
+     "file": "000143_05_01_136.png",
+     "patient_id": "000143",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0067,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.942
+    },
+    {
+     "file": "000185_02_04_174.png",
+     "patient_id": "000185",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.002,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.9199
+    },
+    {
+     "file": "000188_02_01_157.png",
+     "patient_id": "000188",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0339,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.7095
+    },
+    {
+     "file": "000188_03_01_146.png",
+     "patient_id": "000188",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0151,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.7688
+    },
+    {
+     "file": "000196_03_02_132.png",
+     "patient_id": "000196",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0015,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.8583
+    },
+    {
+     "file": "000196_03_02_173.png",
+     "patient_id": "000196",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.001,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.945
+    },
+    {
+     "file": "000198_05_01_112.png",
+     "patient_id": "000198",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0038,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8806
+    },
+    {
+     "file": "000198_05_01_124.png",
+     "patient_id": "000198",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0048,
+     "box_area_fraction": 0.0036,
+     "predicted_class": "malignant",
+     "confidence": 0.9283
+    },
+    {
+     "file": "000199_01_02_207.png",
+     "patient_id": "000199",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0218,
+     "box_area_fraction": 0.0093,
+     "predicted_class": "malignant",
+     "confidence": 0.9343
+    },
+    {
+     "file": "000207_03_01_075.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0009,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.9659
+    },
+    {
+     "file": "000207_03_01_085.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9839
+    },
+    {
+     "file": "000207_04_01_059.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.8971
+    },
+    {
+     "file": "000207_04_01_068.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9587
+    },
+    {
+     "file": "000207_04_01_191.png",
+     "patient_id": "000207",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0047,
+     "box_area_fraction": 0.0035,
+     "predicted_class": "malignant",
+     "confidence": 0.8926
+    },
+    {
+     "file": "000223_05_03_105.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0275,
+     "box_area_fraction": 0.0139,
+     "predicted_class": "malignant",
+     "confidence": 0.9789
+    },
+    {
+     "file": "000223_05_03_128.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0109,
+     "box_area_fraction": 0.0075,
+     "predicted_class": "malignant",
+     "confidence": 0.998
+    },
+    {
+     "file": "000223_06_03_104.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.1621,
+     "box_area_fraction": 0.1107,
+     "predicted_class": "malignant",
+     "confidence": 0.9909
+    },
+    {
+     "file": "000223_07_01_106.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0191,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.9971
+    },
+    {
+     "file": "000223_07_01_107.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0093,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.9973
+    },
+    {
+     "file": "000223_07_01_133.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9958
+    },
+    {
+     "file": "000223_07_01_168.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0065,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.9562
+    },
+    {
+     "file": "000223_08_01_106.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0156,
+     "box_area_fraction": 0.0118,
+     "predicted_class": "malignant",
+     "confidence": 0.9697
+    },
+    {
+     "file": "000223_08_01_109.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0041,
+     "box_area_fraction": 0.0073,
+     "predicted_class": "malignant",
+     "confidence": 0.9718
+    },
+    {
+     "file": "000223_09_02_109.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0198,
+     "box_area_fraction": 0.0089,
+     "predicted_class": "malignant",
+     "confidence": 0.9873
+    },
+    {
+     "file": "000223_09_02_132.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0095,
+     "box_area_fraction": 0.0062,
+     "predicted_class": "malignant",
+     "confidence": 0.9937
+    },
+    {
+     "file": "000223_09_02_146.png",
+     "patient_id": "000223",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.9904
+    },
+    {
+     "file": "000226_02_01_079.png",
+     "patient_id": "000226",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0079,
+     "box_area_fraction": 0.0045,
+     "predicted_class": "malignant",
+     "confidence": 0.8782
+    },
+    {
+     "file": "000228_03_03_165.png",
+     "patient_id": "000228",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0025,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.9532
+    },
+    {
+     "file": "000229_03_04_153.png",
+     "patient_id": "000229",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0018,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8406
+    },
+    {
+     "file": "000229_03_04_202.png",
+     "patient_id": "000229",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.001,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.4601
+    },
+    {
+     "file": "000230_01_01_175.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0027,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.8883
+    },
+    {
+     "file": "000230_02_01_157.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0033,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.858
+    },
+    {
+     "file": "000230_03_02_166.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0035,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8847
+    },
+    {
+     "file": "000230_04_01_174.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0033,
+     "box_area_fraction": 0.0033,
+     "predicted_class": "malignant",
+     "confidence": 0.8842
+    },
+    {
+     "file": "000230_04_01_240.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0032,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.5194
+    },
+    {
+     "file": "000230_04_01_242.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.4895
+    },
+    {
+     "file": "000230_05_01_165.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0041,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.8238
+    },
+    {
+     "file": "000230_05_01_233.png",
+     "patient_id": "000230",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0047,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8457
+    },
+    {
+     "file": "000231_02_01_042.png",
+     "patient_id": "000231",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0006,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.7292
+    },
+    {
+     "file": "000238_09_03_124.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0023,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.7613
+    },
+    {
+     "file": "000238_09_03_162.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.8409
+    },
+    {
+     "file": "000238_09_03_268.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.5889
+    },
+    {
+     "file": "000238_10_02_152.png",
+     "patient_id": "000238",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0016,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9407
+    },
+    {
+     "file": "000245_03_02_169.png",
+     "patient_id": "000245",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.011,
+     "box_area_fraction": 0.0061,
+     "predicted_class": "malignant",
+     "confidence": 0.9326
+    },
+    {
+     "file": "000245_03_02_214.png",
+     "patient_id": "000245",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0089,
+     "box_area_fraction": 0.006,
+     "predicted_class": "malignant",
+     "confidence": 0.9578
+    },
+    {
+     "file": "000247_03_01_202.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0042,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.6537
+    },
+    {
+     "file": "000247_04_01_165.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.7774
+    },
+    {
+     "file": "000247_04_01_209.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8342
+    },
+    {
+     "file": "000247_05_01_178.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0023,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.8348
+    },
+    {
+     "file": "000247_05_01_221.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0029,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.7182
+    },
+    {
+     "file": "000247_06_02_149.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.7547
+    },
+    {
+     "file": "000247_06_02_201.png",
+     "patient_id": "000247",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.8018
+    },
+    {
+     "file": "000251_08_02_195.png",
+     "patient_id": "000251",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0025,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.8165
+    },
+    {
+     "file": "000265_11_02_190.png",
+     "patient_id": "000265",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0014,
+     "box_area_fraction": 0.0009,
+     "predicted_class": "malignant",
+     "confidence": 0.53
+    },
+    {
+     "file": "000266_03_02_133.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0216,
+     "box_area_fraction": 0.0096,
+     "predicted_class": "malignant",
+     "confidence": 0.8538
+    },
+    {
+     "file": "000266_03_02_138.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0224,
+     "box_area_fraction": 0.0117,
+     "predicted_class": "malignant",
+     "confidence": 0.8062
+    },
+    {
+     "file": "000266_04_01_030.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9721
+    },
+    {
+     "file": "000266_04_02_098.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.8465
+    },
+    {
+     "file": "000266_04_02_150.png",
+     "patient_id": "000266",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0154,
+     "box_area_fraction": 0.0068,
+     "predicted_class": "malignant",
+     "confidence": 0.8462
+    },
+    {
+     "file": "000271_12_02_237.png",
+     "patient_id": "000271",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0015,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9469
+    },
+    {
+     "file": "000271_12_02_242.png",
+     "patient_id": "000271",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0037,
+     "box_area_fraction": 0.0019,
+     "predicted_class": "malignant",
+     "confidence": 0.9549
+    },
+    {
+     "file": "000276_05_02_188.png",
+     "patient_id": "000276",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.8244
+    },
+    {
+     "file": "000278_07_02_182.png",
+     "patient_id": "000278",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0019,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.7703
+    },
+    {
+     "file": "000280_02_03_200.png",
+     "patient_id": "000280",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0024,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.8541
+    },
+    {
+     "file": "000282_04_02_120.png",
+     "patient_id": "000282",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0043,
+     "box_area_fraction": 0.0051,
+     "predicted_class": "malignant",
+     "confidence": 0.9767
+    },
+    {
+     "file": "000283_13_02_106.png",
+     "patient_id": "000283",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0011,
+     "box_area_fraction": 0.0007,
+     "predicted_class": "malignant",
+     "confidence": 0.9407
+    },
+    {
+     "file": "000284_01_02_105.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0007,
+     "box_area_fraction": 0.001,
+     "predicted_class": "malignant",
+     "confidence": 0.9487
+    },
+    {
+     "file": "000284_01_02_121.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.003,
+     "box_area_fraction": 0.003,
+     "predicted_class": "malignant",
+     "confidence": 0.7608
+    },
+    {
+     "file": "000284_02_02_018.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0035,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9041
+    },
+    {
+     "file": "000284_03_01_084.png",
+     "patient_id": "000284",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0018,
+     "box_area_fraction": 0.0017,
+     "predicted_class": "malignant",
+     "confidence": 0.751
+    },
+    {
+     "file": "000293_06_03_154.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.7754
+    },
+    {
+     "file": "000293_06_03_161.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0089,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.7553
+    },
+    {
+     "file": "000293_06_03_176.png",
+     "patient_id": "000293",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0052,
+     "box_area_fraction": 0.0047,
+     "predicted_class": "malignant",
+     "confidence": 0.7936
+    },
+    {
+     "file": "000304_01_01_210.png",
+     "patient_id": "000304",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0057,
+     "box_area_fraction": 0.0038,
+     "predicted_class": "malignant",
+     "confidence": 0.8944
+    },
+    {
+     "file": "000306_06_02_126.png",
+     "patient_id": "000306",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0051,
+     "box_area_fraction": 0.0026,
+     "predicted_class": "malignant",
+     "confidence": 0.8377
+    },
+    {
+     "file": "000306_06_02_201.png",
+     "patient_id": "000306",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0101,
+     "box_area_fraction": 0.0046,
+     "predicted_class": "malignant",
+     "confidence": 0.7941
+    },
+    {
+     "file": "000308_03_02_091.png",
+     "patient_id": "000308",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0089,
+     "box_area_fraction": 0.0064,
+     "predicted_class": "malignant",
+     "confidence": 0.9618
+    },
+    {
+     "file": "000308_03_02_122.png",
+     "patient_id": "000308",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0028,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.9675
+    },
+    {
+     "file": "000310_01_01_115.png",
+     "patient_id": "000310",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.002,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.9156
+    },
+    {
+     "file": "000314_04_02_183.png",
+     "patient_id": "000314",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0025,
+     "box_area_fraction": 0.0009,
+     "predicted_class": "malignant",
+     "confidence": 0.5229
+    },
+    {
+     "file": "000315_04_03_094.png",
+     "patient_id": "000315",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0013,
+     "predicted_class": "malignant",
+     "confidence": 0.9326
+    },
+    {
+     "file": "000315_04_03_145.png",
+     "patient_id": "000315",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0064,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.9387
+    },
+    {
+     "file": "000316_01_01_071.png",
+     "patient_id": "000316",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0018,
+     "box_area_fraction": 0.0016,
+     "predicted_class": "malignant",
+     "confidence": 0.9353
+    },
+    {
+     "file": "000328_08_03_167.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0032,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.922
+    },
+    {
+     "file": "000328_08_03_172.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0023,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9342
+    },
+    {
+     "file": "000328_08_03_180.png",
+     "patient_id": "000328",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0061,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.8837
+    },
+    {
+     "file": "000569_08_01_020.png",
+     "patient_id": "000569",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0063,
+     "box_area_fraction": 0.0027,
+     "predicted_class": "malignant",
+     "confidence": 0.985
+    },
+    {
+     "file": "000747_03_03_172.png",
+     "patient_id": "000747",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9778
+    },
+    {
+     "file": "000749_03_02_108.png",
+     "patient_id": "000749",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0081,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.9031
+    },
+    {
+     "file": "000874_03_02_219.png",
+     "patient_id": "000874",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0134,
+     "box_area_fraction": 0.0078,
+     "predicted_class": "malignant",
+     "confidence": 0.9439
+    },
+    {
+     "file": "001083_09_01_093.png",
+     "patient_id": "001083",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0022,
+     "box_area_fraction": 0.0025,
+     "predicted_class": "malignant",
+     "confidence": 0.9107
+    },
+    {
+     "file": "001230_03_02_148.png",
+     "patient_id": "001230",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0173,
+     "box_area_fraction": 0.0066,
+     "predicted_class": "malignant",
+     "confidence": 0.9808
+    },
+    {
+     "file": "001337_01_02_176.png",
+     "patient_id": "001337",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.0015,
+     "predicted_class": "malignant",
+     "confidence": 0.8108
+    },
+    {
+     "file": "001404_01_01_139.png",
+     "patient_id": "001404",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0012,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.498
+    },
+    {
+     "file": "001574_13_01_090.png",
+     "patient_id": "001574",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0035,
+     "box_area_fraction": 0.004,
+     "predicted_class": "malignant",
+     "confidence": 0.8729
+    },
+    {
+     "file": "001598_15_02_231.png",
+     "patient_id": "001598",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0117,
+     "box_area_fraction": 0.0053,
+     "predicted_class": "malignant",
+     "confidence": 0.9567
+    },
+    {
+     "file": "001797_01_02_221.png",
+     "patient_id": "001797",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0035,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.8026
+    },
+    {
+     "file": "002124_02_02_251.png",
+     "patient_id": "002124",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0013,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.7908
+    },
+    {
+     "file": "002241_02_03_218.png",
+     "patient_id": "002241",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0281,
+     "box_area_fraction": 0.0074,
+     "predicted_class": "malignant",
+     "confidence": 0.8984
+    },
+    {
+     "file": "002265_01_01_016.png",
+     "patient_id": "002265",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0046,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.9497
+    },
+    {
+     "file": "002265_02_01_031.png",
+     "patient_id": "002265",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0049,
+     "box_area_fraction": 0.002,
+     "predicted_class": "malignant",
+     "confidence": 0.9667
+    },
+    {
+     "file": "002276_05_03_078.png",
+     "patient_id": "002276",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0024,
+     "box_area_fraction": 0.0012,
+     "predicted_class": "malignant",
+     "confidence": 0.8965
+    },
+    {
+     "file": "002408_01_01_161.png",
+     "patient_id": "002408",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0021,
+     "box_area_fraction": 0.0018,
+     "predicted_class": "malignant",
+     "confidence": 0.8587
+    },
+    {
+     "file": "002435_04_01_230.png",
+     "patient_id": "002435",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0008,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.4953
+    },
+    {
+     "file": "002463_01_01_029.png",
+     "patient_id": "002463",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.114,
+     "box_area_fraction": 0.052,
+     "predicted_class": "malignant",
+     "confidence": 0.9938
+    },
+    {
+     "file": "002601_01_01_237.png",
+     "patient_id": "002601",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0038,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.7896
+    },
+    {
+     "file": "002639_05_01_141.png",
+     "patient_id": "002639",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0114,
+     "box_area_fraction": 0.0054,
+     "predicted_class": "malignant",
+     "confidence": 0.9494
+    },
+    {
+     "file": "002701_04_03_160.png",
+     "patient_id": "002701",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0371,
+     "box_area_fraction": 0.0188,
+     "predicted_class": "malignant",
+     "confidence": 0.9383
+    },
+    {
+     "file": "003038_05_01_063.png",
+     "patient_id": "003038",
+     "hit": false,
+     "in_lung_field": true,
+     "energy_in_box": 0.0031,
+     "box_area_fraction": 0.0023,
+     "predicted_class": "malignant",
+     "confidence": 0.9053
+    },
+    {
+     "file": "003311_02_01_028.png",
+     "patient_id": "003311",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0128,
+     "box_area_fraction": 0.0052,
+     "predicted_class": "malignant",
+     "confidence": 0.915
+    },
+    {
+     "file": "003380_03_01_140.png",
+     "patient_id": "003380",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0094,
+     "box_area_fraction": 0.0044,
+     "predicted_class": "malignant",
+     "confidence": 0.9915
+    },
+    {
+     "file": "003412_03_01_108.png",
+     "patient_id": "003412",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.003,
+     "box_area_fraction": 0.0034,
+     "predicted_class": "malignant",
+     "confidence": 0.9345
+    },
+    {
+     "file": "003601_02_01_076.png",
+     "patient_id": "003601",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0064,
+     "box_area_fraction": 0.0022,
+     "predicted_class": "malignant",
+     "confidence": 0.7107
+    },
+    {
+     "file": "004085_01_02_107.png",
+     "patient_id": "004085",
+     "hit": false,
+     "in_lung_field": false,
+     "energy_in_box": 0.0015,
+     "box_area_fraction": 0.0011,
+     "predicted_class": "malignant",
+     "confidence": 0.9782
+    }
+   ]
+  }
+ }
+}

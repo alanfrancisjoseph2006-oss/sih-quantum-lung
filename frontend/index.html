@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuantumLung - Hybrid Quantum-Classical Lung Cancer Analysis</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫁</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">🫁</div>
+      <div>QuantumLung
+        <small>SIH 2026 · PS 26139 · Team CodeNova</small>
+      </div>
+    </div>
+    <nav class="tabs">
+      <button data-page="home" class="active">Home</button>
+      <button data-page="analyze">CT Analysis</button>
+      <button data-page="models">Model Comparison</button>
+      <button data-page="quantum">Quantum Explainer</button>
+      <button data-page="about">About / Research</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="disclaimer">
+    <span class="ic">⚕️</span>
+    <span><b>AI-assisted research and clinical decision-support tool. Not a replacement for
+    professional medical diagnosis.</b> All outputs are model predictions on a single 2D CT
+    slice and require confirmation by a qualified clinician and, for any cancer diagnosis,
+    histopathology.</span>
+  </div>
+
+  <!-- ==================== HOME ==================== -->
+  <section class="page active" id="page-home">
+    <div class="panel hero">
+      <div class="eyebrow">Smart India Hackathon 2026 · Problem Statement 26139</div>
+      <h1>Hybrid <span class="grad">Quantum-Classical AI</span><br>for Early Lung Cancer Detection</h1>
+      <p class="lead">A chest-CT decision-support platform that runs a classical deep-learning
+      branch, a variational quantum branch, and a hybrid fusion of the two — then reports what
+      each one concluded, how much they agree, and exactly what the underlying data does and
+      does not support.</p>
+      <div class="pills">
+        <span class="pill">EfficientNet-B3 / DenseNet-121</span>
+        <span class="pill q">PennyLane VQC · 4–8 qubits</span>
+        <span class="pill">Hybrid Fusion</span>
+        <span class="pill">Grad-CAM++ Explainability</span>
+        <span class="pill">DICOM Support</span>
+      </div>
+    </div>
+
+    <div class="grid g4" id="home-stats"></div>
+
+    <div class="panel">
+      <div class="eyebrow">Architecture</div>
+      <h2>Medical imaging → deep learning → quantum → fusion → explainable report</h2>
+      <div id="arch-diagram"></div>
+    </div>
+
+    <div class="grid g2">
+      <div class="panel">
+        <div class="eyebrow">Classical Branch</div>
+        <h3>Transfer-learned CNN feature extractor</h3>
+        <p>An ImageNet-pretrained EfficientNet-B3 (and a DenseNet-121 baseline) is fine-tuned on
+        the cleaned CT set and produces a 256-dimensional embedding. That embedding feeds a
+        softmax head plus four classical comparison classifiers — Random Forest, RBF-SVM,
+        XGBoost and logistic regression.</p>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Quantum Branch</div>
+        <h3>Variational circuit on reduced features</h3>
+        <p>The embedding is scaled, reduced by PCA to 32 components, then linearly projected onto
+        <i>n</i> qubits and angle-encoded as RY rotations. A shallow parameterised circuit of
+        RY/RZ rotations with a CNOT ring is measured in the Pauli-Z basis, giving <i>n</i>
+        quantum features that drive a linear read-out.</p>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Hybrid Fusion</div>
+        <h3>Four strategies, chosen on validation</h3>
+        <p>Weighted averaging, a small neural fusion network, a logistic meta-classifier, and
+        feature concatenation into XGBoost. The strategy is selected on the validation split
+        only — the held-out test set is never used to choose anything.</p>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Scientific Honesty</div>
+        <h3>What this platform refuses to do</h3>
+        <p>It does not predict cancer stage, because the dataset has no stage labels. It does not
+        output segmentation, because the dataset has no tumour masks. And it does not claim
+        quantum advantage — we ran the significance test, and report the result either way.</p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="eyebrow">Headline findings</div>
+      <h2>Three results worth stating up front</h2>
+      <div class="grid g3" id="home-findings"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ANALYZE ==================== -->
+  <section class="page" id="page-analyze">
+    <div class="panel">
+      <div class="eyebrow">CT Image Analysis</div>
+      <h2>Upload a chest CT slice</h2>
+      <p class="muted">Accepted: PNG · JPG · JPEG · BMP · TIFF · DICOM (.dcm). DICOM files are read
+      with proper rescale slope/intercept and lung windowing. Maximum 40 MB.</p>
+
+      <div class="drop" id="drop">
+        <div class="ic">🩻</div>
+        <h3>Drop a CT image here, or click to browse</h3>
+        <p class="muted" style="margin:0">Your image is processed locally by this server and is not stored.</p>
+        <input type="file" id="fileInput" class="hidden" accept=".png,.jpg,.jpeg,.bmp,.tif,.tiff,.dcm,.dicom,.ima">
+      </div>
+
+      <div class="steps" id="steps"></div>
+      <div id="analyze-msg" style="margin-top:14px"></div>
+    </div>
+
+    <div id="results"></div>
+  </section>
+
+  <!-- ==================== MODEL COMPARISON ==================== -->
+  <section class="page" id="page-models">
+    <div class="panel">
+      <div class="eyebrow">Experimental Results</div>
+      <h2>Model comparison — measured, not claimed</h2>
+      <p class="muted">All figures come from the held-out test split (n = 156) under group-aware
+      splitting. 95% confidence intervals are percentile bootstrap over 1,000 resamples.</p>
+      <div id="model-content"></div>
+    </div>
+  </section>
+
+  <!-- ==================== QUANTUM ==================== -->
+  <section class="page" id="page-quantum">
+    <div class="panel">
+      <div class="eyebrow">Quantum Machine Learning</div>
+      <h2>How the quantum branch actually works</h2>
+      <div id="quantum-content"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="page" id="page-about">
+    <div id="about-content"></div>
+  </section>
+</main>
+
+<footer>
+  <b>QuantumLung</b> · Team CodeNova · Smart India Hackathon 2026 · Problem Statement 26139<br>
+  AI-assisted research and clinical decision-support tool. Not a replacement for professional medical diagnosis.
+</footer>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>

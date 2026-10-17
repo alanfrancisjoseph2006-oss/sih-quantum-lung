@@ -1,0 +1,258 @@
+[
+ {
+  "arm": "baseline",
+  "harmonise": false,
+  "dann": false,
+  "in_domain": {
+   "n": 193,
+   "prevalence": 0.8446,
+   "roc_auc": 1.0,
+   "pr_auc": 1.0,
+   "roc_auc_ci95": [
+    1.0,
+    1.0
+   ],
+   "sensitivity": 0.681,
+   "specificity": 1.0,
+   "precision": 1.0,
+   "f1": 0.8102,
+   "confusion": {
+    "tn": 30,
+    "fp": 0,
+    "fn": 52,
+    "tp": 111
+   },
+   "patient_level": {
+    "n": 129,
+    "roc_auc": 1.0,
+    "roc_auc_ci95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "external": {
+   "n": 922,
+   "prevalence": 0.3254,
+   "roc_auc": 0.4605,
+   "pr_auc": 0.2978,
+   "roc_auc_ci95": [
+    0.4218,
+    0.5
+   ],
+   "sensitivity": 0.49,
+   "specificity": 0.4518,
+   "precision": 0.3012,
+   "f1": 0.3731,
+   "confusion": {
+    "tn": 281,
+    "fp": 341,
+    "fn": 153,
+    "tp": 147
+   },
+   "patient_level": {
+    "n": 50,
+    "roc_auc": 0.4517,
+    "roc_auc_ci95": [
+     0.2917,
+     0.6199
+    ]
+   }
+  },
+  "gap": 0.5395,
+  "best_epoch": 2,
+  "train_min": 1.4
+ },
+ {
+  "arm": "harmonised",
+  "harmonise": true,
+  "dann": false,
+  "in_domain": {
+   "n": 193,
+   "prevalence": 0.8446,
+   "roc_auc": 0.989,
+   "pr_auc": 0.998,
+   "roc_auc_ci95": [
+    0.9743,
+    0.9978
+   ],
+   "sensitivity": 0.8773,
+   "specificity": 1.0,
+   "precision": 1.0,
+   "f1": 0.9346,
+   "confusion": {
+    "tn": 30,
+    "fp": 0,
+    "fn": 20,
+    "tp": 143
+   },
+   "patient_level": {
+    "n": 129,
+    "roc_auc": 0.9862,
+    "roc_auc_ci95": [
+     0.9674,
+     0.9988
+    ]
+   }
+  },
+  "external": {
+   "n": 922,
+   "prevalence": 0.3254,
+   "roc_auc": 0.3631,
+   "pr_auc": 0.2575,
+   "roc_auc_ci95": [
+    0.3227,
+    0.4014
+   ],
+   "sensitivity": 0.3867,
+   "specificity": 0.3891,
+   "precision": 0.2339,
+   "f1": 0.2915,
+   "confusion": {
+    "tn": 242,
+    "fp": 380,
+    "fn": 184,
+    "tp": 116
+   },
+   "patient_level": {
+    "n": 50,
+    "roc_auc": 0.4042,
+    "roc_auc_ci95": [
+     0.25,
+     0.5712
+    ]
+   }
+  },
+  "gap": 0.6259,
+  "best_epoch": 9,
+  "train_min": 1.4
+ },
+ {
+  "arm": "dann",
+  "harmonise": false,
+  "dann": true,
+  "in_domain": {
+   "n": 193,
+   "prevalence": 0.8446,
+   "roc_auc": 0.9973,
+   "pr_auc": 0.9995,
+   "roc_auc_ci95": [
+    0.9925,
+    1.0
+   ],
+   "sensitivity": 0.4601,
+   "specificity": 1.0,
+   "precision": 1.0,
+   "f1": 0.6303,
+   "confusion": {
+    "tn": 30,
+    "fp": 0,
+    "fn": 88,
+    "tp": 75
+   },
+   "patient_level": {
+    "n": 129,
+    "roc_auc": 0.9993,
+    "roc_auc_ci95": [
+     0.9966,
+     1.0
+    ]
+   }
+  },
+  "external": {
+   "n": 922,
+   "prevalence": 0.3254,
+   "roc_auc": 0.406,
+   "pr_auc": 0.2811,
+   "roc_auc_ci95": [
+    0.3677,
+    0.4471
+   ],
+   "sensitivity": 0.51,
+   "specificity": 0.3891,
+   "precision": 0.2871,
+   "f1": 0.3673,
+   "confusion": {
+    "tn": 242,
+    "fp": 380,
+    "fn": 147,
+    "tp": 153
+   },
+   "patient_level": {
+    "n": 50,
+    "roc_auc": 0.4767,
+    "roc_auc_ci95": [
+     0.2964,
+     0.6458
+    ]
+   }
+  },
+  "gap": 0.5913,
+  "best_epoch": 1,
+  "train_min": 3.1
+ },
+ {
+  "arm": "harmonised_dann",
+  "harmonise": true,
+  "dann": true,
+  "in_domain": {
+   "n": 193,
+   "prevalence": 0.8446,
+   "roc_auc": 0.9817,
+   "pr_auc": 0.9968,
+   "roc_auc_ci95": [
+    0.9607,
+    0.9948
+   ],
+   "sensitivity": 0.9018,
+   "specificity": 1.0,
+   "precision": 1.0,
+   "f1": 0.9484,
+   "confusion": {
+    "tn": 30,
+    "fp": 0,
+    "fn": 16,
+    "tp": 147
+   },
+   "patient_level": {
+    "n": 129,
+    "roc_auc": 0.9817,
+    "roc_auc_ci95": [
+     0.9574,
+     0.9981
+    ]
+   }
+  },
+  "external": {
+   "n": 922,
+   "prevalence": 0.3254,
+   "roc_auc": 0.353,
+   "pr_auc": 0.2547,
+   "roc_auc_ci95": [
+    0.3134,
+    0.3923
+   ],
+   "sensitivity": 0.4967,
+   "specificity": 0.2556,
+   "precision": 0.2435,
+   "f1": 0.3268,
+   "confusion": {
+    "tn": 159,
+    "fp": 463,
+    "fn": 151,
+    "tp": 149
+   },
+   "patient_level": {
+    "n": 50,
+    "roc_auc": 0.3205,
+    "roc_auc_ci95": [
+     0.1855,
+     0.4825
+    ]
+   }
+  },
+  "gap": 0.6287,
+  "best_epoch": 10,
+  "train_min": 4.2
+ }
+]

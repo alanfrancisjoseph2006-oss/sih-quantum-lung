@@ -1,0 +1,111 @@
+file,label,action,reasons
+Bengin case (105).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (104).jpg
+Bengin case (107).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (106).jpg
+Bengin case (113).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (112).jpg
+Bengin case (115).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (114).jpg
+Bengin case (16).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (15).jpg
+Bengin case (18).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (17).jpg
+Bengin case (23).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (22).jpg
+Bengin case (27).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (26).jpg
+Bengin case (33).jpg,benign,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"
+Bengin case (34).jpg,benign,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"
+Bengin case (63).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (62).jpg
+Bengin case (65).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (64).jpg
+Bengin case (72).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (71).jpg
+Bengin case (75).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (74).jpg
+Bengin case (8).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (7).jpg
+Bengin case (85).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (84).jpg
+Bengin case (9).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (10).jpg
+Bengin case (91).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (90).jpg
+Bengin case (95).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (94).jpg
+Bengin case (97).jpg,benign,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Bengin case (96).jpg
+Malignant case (138).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (10).jpg
+Malignant case (139).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (11).jpg
+Malignant case (140).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (12).jpg
+Malignant case (141).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (13).jpg
+Malignant case (148).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (14).jpg
+Malignant case (152).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (15).jpg
+Malignant case (180).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:511x404
+Malignant case (200).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (201).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (202).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (203).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (204).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (205).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (206).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (207).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (208).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (209).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (210).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (211).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (212).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (213).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (214).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (215).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (216).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (217).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (218).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (219).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (220).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (221).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (222).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (223).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (224).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (225).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (226).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (227).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:801x512
+Malignant case (228).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (229).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (230).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (231).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (232).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (233).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (234).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (235).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (236).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (237).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (238).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (239).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (240).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (241).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (242).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (243).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (244).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (245).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (246).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (247).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (248).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (249).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (250).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (251).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (252).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (253).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (254).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (255).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (256).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (257).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (258).jpg,malignant,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:623x512
+Malignant case (60).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (3).jpg
+Malignant case (62).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (4).jpg
+Malignant case (65).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (5).jpg
+Malignant case (68).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (6).jpg
+Malignant case (71).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (7).jpg
+Malignant case (73).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (2).jpg
+Malignant case (8).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (155).jpg
+Malignant case (9).jpg,malignant,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Malignant case (156).jpg
+Normal case (344).jpg,normal,KEPT_WITH_NOTE,NON_STANDARD_RESOLUTION:506x331
+Normal case (406).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (363).jpg
+Normal case (407).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (365).jpg
+Normal case (408).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (368).jpg
+Normal case (409).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (375).jpg
+Normal case (410).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (341).jpg
+Normal case (411).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (331).jpg
+Normal case (412).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (11).jpg
+Normal case (413).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (19).jpg
+Normal case (414).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (134).jpg
+Normal case (415).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (145).jpg
+Normal case (416).jpg,normal,EXCLUDED_FROM_MODELLING,EXACT_DUPLICATE_of:Normal case (149).jpg
+Normal case (82).jpg,normal,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"
+Normal case (83).jpg,normal,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"
+Normal case (86).jpg,normal,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"
+Normal case (87).jpg,normal,EXCLUDED_FROM_MODELLING,"LABEL_AMBIGUOUS_group_mix:{'benign': 1, 'normal': 2}"

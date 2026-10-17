@@ -1,0 +1,6 @@
+{
+ "masks_written": 922,
+ "label_malignant": 300,
+ "label_benign": 622,
+ "mask_too_small": 5
+}

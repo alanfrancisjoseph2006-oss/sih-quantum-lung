@@ -1,0 +1,9 @@
+{
+ "seed": 42,
+ "n_bootstrap": 2000,
+ "deployed": {
+  "backbone": "efficientnet_b3",
+  "primary_model": "Quantum_4q",
+  "validation_f1_macro": 0.9593
+ }
+}

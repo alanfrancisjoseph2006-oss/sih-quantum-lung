@@ -1,0 +1,51 @@
+{
+ "stats": {
+  "train": {
+   "n": 1328,
+   "by_label": {
+    "benign": 454,
+    "malignant": 593,
+    "normal": 281
+   },
+   "by_source": {
+    "IQ-OTH": 735,
+    "LIDC": 593
+   }
+  },
+  "val": {
+   "n": 157,
+   "by_label": {
+    "benign": 15,
+    "malignant": 82,
+    "normal": 60
+   },
+   "by_source": {
+    "IQ-OTH": 157
+   }
+  },
+  "test": {
+   "n": 156,
+   "by_label": {
+    "benign": 15,
+    "malignant": 81,
+    "normal": 60
+   },
+   "by_source": {
+    "IQ-OTH": 156
+   }
+  }
+ },
+ "before_train": {
+  "benign": 70,
+  "malignant": 384,
+  "normal": 281
+ },
+ "path": "C:\\Users\\alanf\\sih-quantum-lung\\data\\splits\\splits_merged.csv",
+ "probe": {
+  "source_auc": 0.9985,
+  "nmi_source_label": 0.2876,
+  "n_iqoth": 735,
+  "n_lidc": 593,
+  "interpretation": "Source is trivially separable, but that only becomes a shortcut if source also predicts the label. NMI quantifies exactly that."
+ }
+}

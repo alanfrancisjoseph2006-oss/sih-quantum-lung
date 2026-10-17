@@ -1,0 +1,50 @@
+{
+  "title": "External data acquisition and negative result (LIDC-IDRI)",
+  "question": "Does adding 927 labelled slices from a second, higher-quality dataset improve performance on the original domain?",
+  "answer": "No - it made performance significantly worse.",
+  "acquired": {
+    "source": "LIDC-IDRI via the TCIA public NBIA API",
+    "series_downloaded": 50,
+    "gigabytes": 3.04,
+    "download_minutes": 24.8,
+    "patients": 50,
+    "annotation_files_parsed": 1319,
+    "nodules_benign": 266,
+    "nodules_malignant": 111,
+    "nodules_indeterminate_excluded": 74,
+    "slices_extracted": 927,
+    "slices_benign": 625,
+    "slices_malignant": 302
+  },
+  "label_policy": "LIDC malignancy is a 1-5 radiologist impression from up to 4 readers, NOT pathology-confirmed. Annotations of the same nodule were clustered in 3D and ratings averaged: mean < 3 benign, mean > 3 malignant, mean == 3 excluded entirely. No normal slices were taken from LIDC.",
+  "design": "LIDC entered the TRAIN split only. Validation and test remained byte-identical and 100% IQ-OTH, so results stay directly comparable to the pre-LIDC numbers and a dataset shortcut cannot inflate them.",
+  "training_set_change": {
+    "benign": {"before": 70, "after": 454, "multiplier": 6.5},
+    "malignant": {"before": 384, "after": 593},
+    "normal": {"before": 281, "after": 281}
+  },
+  "dataset_identity_probe": {
+    "source_prediction_roc_auc": 0.9985,
+    "nmi_source_label": 0.288,
+    "interpretation": "Source is trivially separable (LIDC has a circular field of view), so the shortcut was fully available to the model."
+  },
+  "results_on_unchanged_iqoth_test": {
+    "CNN": {"baseline_f1": 0.9167, "lidc_f1": 0.8041, "delta": -0.1126},
+    "CNN_finetuned_on_target": {"baseline_f1": 0.9167, "lidc_f1": 0.8279, "delta": -0.09, "p_value": 0.013, "significant": true},
+    "Hybrid_meta": {"baseline_f1": 0.9247, "lidc_f1": 0.8314, "delta": -0.0949, "p_value": 0.009, "significant": true},
+    "Quantum_4q": {"baseline_f1": 0.9011, "lidc_f1": 0.8712, "delta": -0.0307, "p_value": 0.349, "significant": false},
+    "normal_recall": {"baseline": 0.95, "lidc": 0.817}
+  },
+  "mitigation_attempted": "Two-stage transfer - pretrain on the merged multi-domain set, then fine-tune on IQ-OTH only at 0.3x learning rate - recovered part of the loss (F1 0.804 to 0.828, benign recall 0.60 to 0.73) but stayed significantly below baseline.",
+  "one_genuine_benefit": "With the cost-sensitive decision policy applied, the LIDC-trained CNN reached benign recall 1.000 with ZERO missed findings (baseline 0.933, 1 missed) - but with normal recall 0.667 and no macro-F1 gain (p = 0.80), so it did not justify deployment.",
+  "decision": "The deployed model is unchanged: EfficientNet-B3 to Quantum_4q, trained on IQ-OTH only. All LIDC artefacts and metrics are retained, because the negative result is itself a finding.",
+  "lesson": "More data is not automatically better data. 927 slices from a higher-quality source - true DICOM, real Hounsfield Units, genuine patient IDs, 4-reader consensus - made a single-domain model measurably worse, because the domain gap outweighed the extra examples. Freezing validation and test as pure target-domain data is what made that measurement trustworthy.",
+  "what_would_be_needed": "Domain adaptation (appearance/histogram matching or adversarial domain confusion), sourcing normal slices for the external domain so the classes are not domain-correlated, or enough external data to learn a genuinely domain-invariant representation.",
+  "scripts": [
+    "scripts/09_lidc_parse_annotations.py",
+    "scripts/10_lidc_download.py",
+    "scripts/11_lidc_extract_slices.py",
+    "scripts/12_merge_and_probe.py",
+    "scripts/13_compare_lidc_effect.py"
+  ]
+}

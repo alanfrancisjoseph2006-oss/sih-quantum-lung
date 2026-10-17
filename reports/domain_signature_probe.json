@@ -1,0 +1,29 @@
+{
+ "question": "How much dataset signature is recoverable from each view?",
+ "method": "Logistic regression on simple appearance descriptors (histogram, gradient statistics, frequency bands), evaluated with StratifiedGroupKFold so the probe cannot memorise individual patients.",
+ "n_slices": 520,
+ "n_iqoth": 260,
+ "n_lidc": 260,
+ "roi_size_px": 64,
+ "analysis_size_px": 300,
+ "results": {
+  "whole": {
+   "domain_auc": 1.0,
+   "std": 0.0,
+   "verdict": "dataset identity is trivially recoverable"
+  },
+  "lung_masked": {
+   "domain_auc": 0.9394,
+   "std": 0.0308,
+   "verdict": "strong dataset signature"
+  },
+  "roi": {
+   "domain_auc": 0.9367,
+   "std": 0.0334,
+   "verdict": "strong dataset signature"
+  }
+ },
+ "whole_minus_roi": 0.0633,
+ "conclusion": "The dataset signature survives cropping - it is present in the lung parenchyma itself (reconstruction kernel, noise texture, compression). ROI cropping ALONE will not fix generalisation; intensity harmonisation and/or domain-adversarial training are required.",
+ "caveat": "A high domain AUC does not by itself prove the clinical model uses the signature - only that it is available to be used. Combined with D26 (external AUC 0.488) the inference is well supported."
+}
